@@ -1,6 +1,6 @@
 # 📈 IPO Performance Tracker
 
-> Built by Group 9 | UC Davis MSBA | BAX 422: Data Design and Representation | Spring 2026
+
 
 ---
 
