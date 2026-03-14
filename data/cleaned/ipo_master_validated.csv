@@ -1,0 +1,1199 @@
+ticker,company_name,ipo_date,year
+MKDTY,Molecular Data Inc.,2019-12-30,2019
+INDO,Indonesia Energy Corporation Limited,2019-12-19,2019
+MNPR,Monopar Therapeutics Inc.,2019-12-19,2019
+SPT,"Sprout Social, Inc.",2019-12-13,2019
+BILL,"BILL Holdings, Inc.",2019-12-12,2019
+EH,EHang Holdings Limited,2019-12-12,2019
+XP,XP Inc.,2019-12-11,2019
+LMPX,"LMP Automotive Holdings, Inc.",2019-12-05,2019
+PINE,"Alpine Income Property Trust, Inc.",2019-11-22,2019
+CAN,Canaan Inc.,2019-11-21,2019
+SITM,SiTime Corporation,2019-11-21,2019
+YAYO,"EVmo, Inc.",2019-11-13,2019
+CNSP,"CNS Pharmaceuticals, Inc.",2019-11-08,2019
+KRKR,36Kr Holdings Inc.,2019-11-08,2019
+TELA,"TELA Bio, Inc.",2019-11-08,2019
+GRTX,"Galera Therapeutics, Inc.",2019-11-07,2019
+DUO,Fangdd Network Group Ltd.,2019-11-01,2019
+RAPT,"Rapt Therapeutics, Inc.",2019-10-31,2019
+CABA,"Cabaletta Bio, Inc.",2019-10-25,2019
+DAO,"Youdao, Inc.",2019-10-25,2019
+PAVS,Paranovus Entertainment Technology Ltd.,2019-10-25,2019
+PGNY,"Progyny, Inc.",2019-10-25,2019
+PHAT,"Phathom Pharmaceuticals, Inc.",2019-10-25,2019
+BRBR,"BellRing Brands, Inc.",2019-10-17,2019
+IPHA,Innate Pharma S.A.,2019-10-17,2019
+HBT,"HBT Financial, Inc.",2019-10-11,2019
+VIR,"Vir Biotechnology, Inc.",2019-10-11,2019
+BNTX,BioNTech SE,2019-10-10,2019
+APRE,"Aprea Therapeutics, Inc.",2019-10-03,2019
+KRRO,"Korro Bio, Inc.",2019-10-03,2019
+MCBS,"MetroCity Bankshares, Inc.",2019-10-03,2019
+OPRT,Oportun Financial Corporation,2019-09-26,2019
+PTON,"Peloton Interactive, Inc.",2019-09-26,2019
+DDOG,"Datadog, Inc.",2019-09-19,2019
+XGN,Exagen Inc.,2019-09-19,2019
+NVST,Envista Holdings Corporation,2019-09-18,2019
+ALRS,Alerus Financial Corporation,2019-09-13,2019
+NET,"Cloudflare, Inc.",2019-09-13,2019
+TXG,"10x Genomics, Inc.",2019-09-12,2019
+JFU,9F Inc.,2019-08-15,2019
+BTOG,Bit Origin Ltd,2019-08-14,2019
+INMD,InMode Ltd.,2019-08-08,2019
+AMTD,AMTD IDEA Group,2019-08-05,2019
+DT,"Dynatrace, Inc.",2019-08-01,2019
+KRUS,"Kura Sushi USA, Inc.",2019-08-01,2019
+SNDL,SNDL Inc.,2019-08-01,2019
+BORR,Borr Drilling Limited,2019-07-31,2019
+BHAT,Blue Hat Interactive Entertainment Technology,2019-07-26,2019
+VIST,"Vista Energy, S.A.B. de C.V.",2019-07-26,2019
+CSTL,"Castle Biosciences, Inc.",2019-07-25,2019
+HCAT,"Health Catalyst, Inc.",2019-07-25,2019
+EIC,Eagle Point Income Company Inc.,2019-07-24,2019
+AFYA,Afya Limited,2019-07-19,2019
+IFS,Intercorp Financial Services Inc.,2019-07-19,2019
+FULC,"Fulcrum Therapeutics, Inc.",2019-07-18,2019
+IHRT,"iHeartMedia, Inc.",2019-07-18,2019
+MIRM,"Mirum Pharmaceuticals, Inc.",2019-07-18,2019
+OBDC,Blue Owl Capital Corporation,2019-07-18,2019
+PHR,"Phreesia, Inc.",2019-07-18,2019
+DOYU,DouYu International Holdings Limited,2019-07-17,2019
+RMBI,"Richmond Mutual Bancorporation, Inc.",2019-07-02,2019
+REAL,"The RealReal, Inc.",2019-06-28,2019
+ADPT,Adaptive Biotechnologies Corporation,2019-06-27,2019
+BBIO,"BridgeBio Pharma, Inc.",2019-06-27,2019
+CMBM,Cambium Networks Corporation,2019-06-26,2019
+GO,Grocery Outlet Holding Corp.,2019-06-20,2019
+PSNL,"Personalis, Inc.",2019-06-20,2019
+STOK,"Stoke Therapeutics, Inc.",2019-06-19,2019
+CHWY,"Chewy, Inc.",2019-06-14,2019
+FVRR,Fiverr International Ltd.,2019-06-13,2019
+CRWD,"CrowdStrike Holdings, Inc.",2019-06-12,2019
+RVLV,"Revolve Group, Inc.",2019-06-07,2019
+GOTU,Gaotu Techedu Inc.,2019-06-06,2019
+BCYC,Bicycle Therapeutics plc,2019-05-23,2019
+IDYA,"IDEAYA Biosciences, Inc.",2019-05-23,2019
+AVTR,"Avantor, Inc.",2019-05-17,2019
+FSLY,"Fastly, Inc.",2019-05-17,2019
+LKNCY,"Luckin Coffee, Inc.",2019-05-17,2019
+PSTL,"Postal Realty Trust, Inc.",2019-05-15,2019
+JFIN,Jiayin Group Inc.,2019-05-10,2019
+SONM,"DNA X, Inc.",2019-05-10,2019
+UBER,"Uber Technologies, Inc.",2019-05-10,2019
+MEC,"Mayville Engineering Company, Inc.",2019-05-09,2019
+NXTC,"NextCure, Inc.",2019-05-09,2019
+QNCX,"Quince Therapeutics, Inc.",2019-05-09,2019
+SPFI,"South Plains Financial, Inc.",2019-05-09,2019
+PSN,Parsons Corporation,2019-05-08,2019
+TRVI,"Trevi Therapeutics, Inc.",2019-05-07,2019
+TBBA,"TEB Bancorp, Inc.",2019-05-06,2019
+RRBI,"Red River Bancshares, Inc.",2019-05-03,2019
+YJ,Yunji Inc.,2019-05-03,2019
+BYND,"Beyond Meat, Inc.",2019-05-02,2019
+SY,So-Young International Inc.,2019-05-02,2019
+TMDX,"TransMedics Group, Inc.",2019-05-02,2019
+WAFU,Wah Fu Education Group Limited,2019-04-30,2019
+GNLN,"Greenlane Holdings, Inc.",2019-04-18,2019
+HOOK,HOOKIPA Pharma Inc.,2019-04-18,2019
+PINS,"Pinterest, Inc.",2019-04-18,2019
+ZM,"Zoom Communications, Inc.",2019-04-18,2019
+BWAY,BrainsWay Ltd.,2019-04-17,2019
+PLMR,"Palomar Holdings, Inc.",2019-04-17,2019
+JMIA,Jumia Technologies AG,2019-04-12,2019
+PD,"PagerDuty, Inc.",2019-04-11,2019
+GHSI,"Guardion Health Sciences, Inc.",2019-04-05,2019
+TW,Tradeweb Markets Inc.,2019-04-04,2019
+LYFT,"Lyft, Inc.",2019-03-29,2019
+DTIL,"Precision BioSciences, Inc.",2019-03-28,2019
+WTRE,Watford Holdings Ltd.,2019-03-28,2019
+LEVI,Levi Strauss & Co.,2019-03-21,2019
+TIGR,UP Fintech Holding Limited,2019-03-20,2019
+FUTU,Futu Holdings Limited,2019-03-08,2019
+KLDO,"Kaleido Biosciences, Inc.",2019-02-28,2019
+SLE,"Super League Enterprise, Inc.",2019-02-26,2019
+AREC,American Resources Corporation,2019-02-15,2019
+HOTH,"Hoth Therapeutics, Inc.",2019-02-15,2019
+BACK,"IMAC Holdings, Inc.",2019-02-13,2019
+GOSS,"Gossamer Bio, Inc.",2019-02-08,2019
+ALEC,"Alector, Inc.",2019-02-07,2019
+INMB,INmune Bio Inc.,2019-02-04,2019
+NFE,New Fortress Energy Inc.,2019-01-31,2019
+RBKB,"Rhinebeck Bancorp, Inc.",2019-01-17,2019
+BCOW,"1895 Bancorp of Wisconsin, Inc.",2019-01-09,2019
+MTC,"MMTec, Inc.",2019-01-08,2019
+SXTC,"China SXT Pharmaceuticals, Inc.",2019-01-04,2019
+MRM,MEDIROM Healthcare Technologies Inc.,2020-12-29,2020
+IKT,"Inhibikase Therapeutics, Inc.",2020-12-23,2020
+MASS,908 Devices Inc.,2020-12-18,2020
+BCAB,"BioAtla, Inc.",2020-12-16,2020
+LOGC,"ContextLogic, Inc.",2020-12-16,2020
+SCPS,"Scopus Biopharma, Inc.",2020-12-16,2020
+UPST,"Upstart Holdings, Inc.",2020-12-16,2020
+OCG,Oriental Culture Holding LTD,2020-12-15,2020
+WNW,Meiwu Technology Company Limited,2020-12-15,2020
+ABCL,AbCellera Biologics Inc.,2020-12-11,2020
+CERT,"Certara, Inc.",2020-12-11,2020
+FDMT,"4D Molecular Therapeutics, Inc.",2020-12-11,2020
+NBTX,Nanobiotix S.A.,2020-12-11,2020
+VVOS,"Vivos Therapeutics, Inc.",2020-12-11,2020
+ABNB,"Airbnb, Inc.",2020-12-10,2020
+HYFM,"Hydrofarm Holdings Group, Inc.",2020-12-10,2020
+AI,"C3.ai, Inc.",2020-12-09,2020
+DASH,"DoorDash, Inc.",2020-12-09,2020
+PUBM,"PubMatic, Inc.",2020-12-09,2020
+SEER,"Seer, Inc.",2020-12-04,2020
+YQ,17 Education & Technology Group Inc.,2020-12-04,2020
+DCBO,Docebo Inc.,2020-12-03,2020
+VMAR,Vision Marine Technologies Inc.,2020-11-24,2020
+MRVI,"Maravai LifeSciences Holdings, Inc.",2020-11-20,2020
+SHC,Sotera Health Company,2020-11-20,2020
+OLMA,"Olema Pharmaceuticals, Inc.",2020-11-19,2020
+TLS,Telos Corporation,2020-11-19,2020
+YSG,Yatsen Holding Limited,2020-11-19,2020
+AVIR,"Atea Pharmaceuticals, Inc.",2020-10-30,2020
+CNXX,CONX Corp.,2020-10-30,2020
+LU,Lufax Holding Ltd,2020-10-30,2020
+SQZB,SQZ Biotechnologies Company,2020-10-30,2020
+ALGM,"Allegro MicroSystems, Inc.",2020-10-29,2020
+LESL,"Leslie's, Inc.",2020-10-29,2020
+ACIC,Atlas Crest Investment Corp.,2020-10-28,2020
+BDSX,"Biodesix, Inc.",2020-10-28,2020
+MAX,"MediaAlpha, Inc.",2020-10-28,2020
+ROOT,"Root, Inc.",2020-10-28,2020
+FHTX,Foghorn Therapeutics Inc.,2020-10-23,2020
+ALGS,"Aligos Therapeutics, Inc.",2020-10-16,2020
+PRAX,"Praxis Precision Medicines, Inc.",2020-10-16,2020
+TARS,"Tarsus Pharmaceuticals, Inc.",2020-10-16,2020
+ARRY,"Array Technologies, Inc.",2020-10-15,2020
+EBC,"Eastern Bankshares, Inc.",2020-10-15,2020
+MNSO,MINISO Group Holding Limited,2020-10-15,2020
+IH,iHuman Inc.,2020-10-09,2020
+INTZ,Intrusion Inc.,2020-10-09,2020
+IPOD,Social Capital Hedosophia Holdings Corp. IV,2020-10-09,2020
+SPRB,"Spruce Biosciences, Inc.",2020-10-09,2020
+STTK,"Shattuck Labs, Inc.",2020-10-09,2020
+ELUT,Elutia Inc.,2020-10-08,2020
+FUBO,FuboTV Inc.,2020-10-08,2020
+SQFT,"Presidio Property Trust, Inc.",2020-10-07,2020
+ASO,"Academy Sports and Outdoors, Inc.",2020-10-02,2020
+CCCC,"C4 Therapeutics, Inc.",2020-10-02,2020
+IMNM,"Immunome, Inc.",2020-10-02,2020
+AVO,"Mission Produce, Inc.",2020-10-01,2020
+LUNG,Pulmonx Corporation,2020-10-01,2020
+LXEH,"Lixiang Education Holding Co., Ltd.",2020-10-01,2020
+THRY,"Thryv Holdings, Inc.",2020-10-01,2020
+ASAN,"Asana, Inc.",2020-09-30,2020
+BQ,Boqii Holding Limited,2020-09-30,2020
+CD,Chindata Group Holdings Limited,2020-09-30,2020
+PLTR,Palantir Technologies Inc.,2020-09-30,2020
+YALA,Yalla Group Limited,2020-09-30,2020
+AMST,Amesite Inc.,2020-09-25,2020
+GLSI,"Greenwich LifeSciences, Inc.",2020-09-25,2020
+PMVP,"PMV Pharmaceuticals, Inc.",2020-09-25,2020
+PRLD,Prelude Therapeutics Incorporated,2020-09-25,2020
+VIAOY,VIA optronics AG,2020-09-25,2020
+TSHA,"Taysha Gene Therapies, Inc.",2020-09-24,2020
+ASPL,Aspirational Consumer Lifestyle Corp.,2020-09-23,2020
+BSY,"Bentley Systems, Incorporated",2020-09-23,2020
+CRSR,"Corsair Gaming, Inc.",2020-09-23,2020
+GDRX,"GoodRx Holdings, Inc.",2020-09-23,2020
+LSF,"Laird Superfood, Inc.",2020-09-23,2020
+CMPS,COMPASS Pathways plc,2020-09-18,2020
+U,Unity Software Inc.,2020-09-18,2020
+AMWL,American Well Corporation,2020-09-17,2020
+BNL,"Broadstone Net Lease, Inc.",2020-09-17,2020
+DYN,"Dyne Therapeutics, Inc.",2020-09-17,2020
+FROG,JFrog Ltd.,2020-09-16,2020
+SNOW,Snowflake Inc.,2020-09-16,2020
+STEP,StepStone Group Inc.,2020-09-16,2020
+OM,"Outset Medical, Inc.",2020-09-15,2020
+LSPD,Lightspeed Commerce Inc.,2020-09-11,2020
+PRFX,PRF Technologies Ltd.,2020-09-01,2020
+GP,GreenPower Motor Company Inc.,2020-08-28,2020
+XPEV,XPeng Inc.,2020-08-27,2020
+KYMR,"Kymera Therapeutics, Inc.",2020-08-21,2020
+NNOX,Nano-X Imaging Ltd.,2020-08-21,2020
+HRMY,"Harmony Biosciences Holdings, Inc.",2020-08-19,2020
+INBX,"Inhibrx Biosciences, Inc.",2020-08-19,2020
+BEKE,KE Holdings Inc.,2020-08-13,2020
+NTST,NETSTREIT Corp.,2020-08-13,2020
+KBNT,"Kubient, Inc.",2020-08-12,2020
+IBEX,IBEX Limited,2020-08-07,2020
+AFIB,"Acutus Medical, Inc.",2020-08-06,2020
+RKT,"Rocket Companies, Inc.",2020-08-06,2020
+FTHM,Fathom Holdings Inc.,2020-07-31,2020
+NHIC,NewHold Investment Corp.,2020-07-31,2020
+VITL,"Vital Farms, Inc.",2020-07-31,2020
+LI,Li Auto Inc.,2020-07-30,2020
+VERX,"Vertex, Inc.",2020-07-29,2020
+ANNX,"Annexon, Inc.",2020-07-24,2020
+NRIX,"Nurix Therapeutics, Inc.",2020-07-24,2020
+EDTK,Skillful Craftsman Education Technology Limited,2020-07-23,2020
+MEG,"Montrose Environmental Group, Inc.",2020-07-23,2020
+ALXO,ALX Oncology Holdings Inc.,2020-07-17,2020
+RNLX,Renalytix Plc,2020-07-17,2020
+RLAY,"Relay Therapeutics, Inc.",2020-07-16,2020
+GOCO,"GoHealth, Inc.",2020-07-15,2020
+NCNO,"nCino, Inc.",2020-07-14,2020
+IVA,Inventiva S.A.,2020-07-10,2020
+NKTX,"Nkarta, Inc.",2020-07-10,2020
+QH,Quhuo Limited,2020-07-10,2020
+LMND,"Lemonade, Inc.",2020-07-02,2020
+ADTX,"Aditxt, Inc.",2020-06-30,2020
+ACI,"Albertsons Companies, Inc.",2020-06-26,2020
+API,"Agora, Inc.",2020-06-26,2020
+EBON,Ebang International Holdings Inc.,2020-06-26,2020
+PYPD,PolyPid Ltd.,2020-06-26,2020
+BIOR,"Biora Therapeutics, Inc.",2020-06-19,2020
+RPRX,Royalty Pharma plc,2020-06-16,2020
+BNR,Burning Rock Biotech Limited,2020-06-12,2020
+PCVX,"Vaxcyte, Inc.",2020-06-12,2020
+RNA,"Avidity Biosciences, Inc.",2020-06-12,2020
+LTRN,Lantern Pharma Inc.,2020-06-11,2020
+UCL,uCloudlink Group Inc.,2020-06-10,2020
+VRM,"Vroom, Inc.",2020-06-09,2020
+FOUR,"Shift4 Payments, Inc.",2020-06-05,2020
+LEGN,Legend Biotech Corporation,2020-06-05,2020
+PLRX,"Pliant Therapeutics, Inc.",2020-06-03,2020
+WMG,Warner Music Group Corp.,2020-06-03,2020
+SLQT,"SelectQuote, Inc.",2020-05-21,2020
+ADCT,ADC Therapeutics SA,2020-05-15,2020
+KC,Kingsoft Cloud Holdings Limited,2020-05-08,2020
+CGRO,Collective Growth Corp.,2020-05-01,2020
+LYRA,"Lyra Therapeutics, Inc.",2020-05-01,2020
+ORIC,"ORIC Pharmaceuticals, Inc.",2020-04-24,2020
+KROS,"Keros Therapeutics, Inc.",2020-04-08,2020
+ZNTL,"Zentalis Pharmaceuticals, Inc.",2020-04-03,2020
+WIMI,WiMi Hologram Cloud Inc.,2020-04-01,2020
+ELVN,"Enliven Therapeutics, Inc.",2020-03-12,2020
+GFL,GFL Environmental Inc.,2020-03-03,2020
+PASG,"Passage Bio, Inc.",2020-02-28,2020
+ZCMD,Zhongchao Inc.,2020-02-24,2020
+RVMD,"Revolution Medicines, Inc.",2020-02-13,2020
+SDOT,Sadot Group Inc.,2020-02-13,2020
+HUIZ,Huize Holding Limited,2020-02-12,2020
+NREF,"NexPoint Real Estate Finance, Inc.",2020-02-07,2020
+ONEW,OneWater Marine Inc.,2020-02-07,2020
+BEAM,Beam Therapeutics Inc.,2020-02-06,2020
+SDGR,"SchrÃ¶dinger, Inc.",2020-02-06,2020
+ARQT,"Arcutis Biotherapeutics, Inc.",2020-01-31,2020
+REYN,Reynolds Consumer Products Inc.,2020-01-31,2020
+BDTX,"Black Diamond Therapeutics, Inc.",2020-01-30,2020
+ANVS,"Annovis Bio, Inc.",2020-01-29,2020
+SOGP,Sound Group Inc.,2020-01-17,2020
+VEL,"Velocity Financial, Inc.",2020-01-17,2020
+NXGL,"NEXGEL, Inc.",2021-12-22,2021
+IMMX,"Immix Biopharma, Inc.",2021-12-16,2021
+SANG,Sangoma Technologies Corporation,2021-12-16,2021
+GNTA,Genenta Science S.p.A.,2021-12-15,2021
+IOT,Samsara Inc.,2021-12-15,2021
+NRSN,NeuroSense Therapeutics Ltd.,2021-12-09,2021
+NU,Nu Holdings Ltd.,2021-12-09,2021
+CING,Cingulate Inc.,2021-12-08,2021
+REFI,"Chicago Atlantic Real Estate Finance, Inc.",2021-12-08,2021
+FINW,FinWise Bancorp,2021-11-19,2021
+LITM,Snow Lake Resources Ltd.,2021-11-19,2021
+SG,"Sweetgreen, Inc.",2021-11-18,2021
+BRZE,"Braze, Inc.",2021-11-17,2021
+IREN,IREN Limited,2021-11-17,2021
+BTBD,"BT Brands, Inc.",2021-11-12,2021
+DERM,Journey Medical Corporation,2021-11-12,2021
+BEAT,"HeartBeam, Inc.",2021-11-11,2021
+BLZE,"Backblaze, Inc.",2021-11-11,2021
+LVLU,"Lulu's Fashion Lounge Holdings, Inc.",2021-11-11,2021
+PIK,Kidpik Corp.,2021-11-11,2021
+TIVC,"Tivic Health Systems, Inc.",2021-11-11,2021
+VAXX,"Vaxxinity, Inc.",2021-11-11,2021
+WEAV,"Weave Communications, Inc.",2021-11-11,2021
+BJDX,"Bluejay Diagnostics, Inc.",2021-11-10,2021
+CBRG,Chain Bridge I,2021-11-10,2021
+CINT,CI&T Inc.,2021-11-10,2021
+EXFY,"Expensify, Inc.",2021-11-10,2021
+RIVN,"Rivian Automotive, Inc.",2021-11-10,2021
+SOPA,Society Pass Incorporated,2021-11-09,2021
+SWAG,"Stran & Company, Inc.",2021-11-09,2021
+TCBX,"Third Coast Bancshares, Inc.",2021-11-09,2021
+IOBT,"IO Biotech, Inc.",2021-11-05,2021
+RGF,Rio Grande Forestal (RIVERFOREST) S.A.,2021-11-05,2021
+ARHS,"Arhaus, Inc.",2021-11-04,2021
+CDRE,"Cadre Holdings, Inc.",2021-11-04,2021
+EVO,Evotec SE,2021-11-04,2021
+LION,Lionheart III Corp.,2021-11-04,2021
+MDXH,MDxHealth SA,2021-11-04,2021
+NRDS,"NerdWallet, Inc.",2021-11-04,2021
+BIRD,"Allbirds, Inc.",2021-11-03,2021
+CMTG,"Claros Mortgage Trust, Inc.",2021-11-03,2021
+LIANY,LianBio,2021-11-01,2021
+AIRS,"AirSculpt Technologies, Inc.",2021-10-29,2021
+AURA,"Aura Biosciences, Inc.",2021-10-29,2021
+BFRI,Biofrontera Inc.,2021-10-29,2021
+SONX,"Sonendo, Inc.",2021-10-29,2021
+TRDA,"Entrada Therapeutics, Inc.",2021-10-29,2021
+UDMY,"Udemy, Inc.",2021-10-29,2021
+FLNC,"Fluence Energy, Inc.",2021-10-28,2021
+GFS,GLOBALFOUNDRIES Inc.,2021-10-28,2021
+AIP,"Arteris, Inc.",2021-10-27,2021
+MRAI,"Marpai, Inc.",2021-10-27,2021
+RENT,"Rent the Runway, Inc.",2021-10-27,2021
+ARIS,"Aris Water Solutions, Inc.",2021-10-22,2021
+UTRS,"Minerva Surgical, Inc.",2021-10-22,2021
+XLO,"Xilio Therapeutics, Inc.",2021-10-22,2021
+COCO,"The Vita Coco Company, Inc.",2021-10-21,2021
+NHIC,NewHold Investment Corp. II,2021-10-21,2021
+PTLO,Portillo's Inc.,2021-10-21,2021
+RWAY,Runway Growth Finance Corp.,2021-10-21,2021
+VTYX,"Ventyx Biosciences, Inc.",2021-10-21,2021
+CNTX,Context Therapeutics Inc.,2021-10-20,2021
+CYN,Cyngn Inc.,2021-10-20,2021
+INKT,"MiNK Therapeutics, Inc.",2021-10-15,2021
+GTLB,GitLab Inc.,2021-10-14,2021
+IHS,IHS Holding Limited,2021-10-14,2021
+LUCD,Lucid Diagnostics Inc.,2021-10-14,2021
+HCTI,"Healthcare Triangle, Inc.",2021-10-13,2021
+CGTX,"Cognition Therapeutics, Inc.",2021-10-08,2021
+LTH,"Life Time Group Holdings, Inc.",2021-10-07,2021
+NVEI,Nuvei Corporation,2021-10-06,2021
+FWRG,"First Watch Restaurant Group, Inc.",2021-10-01,2021
+PYXS,"Pyxis Oncology, Inc.",2021-10-01,2021
+OLPX,"Olaplex Holdings, Inc.",2021-09-30,2021
+WRBY,Warby Parker Inc.,2021-09-29,2021
+AMPL,"Amplitude, Inc.",2021-09-28,2021
+CWAN,"Clearwater Analytics Holdings, Inc.",2021-09-24,2021
+ARBK,Argo Blockchain plc,2021-09-23,2021
+BRLT,"Brilliant Earth Group, Inc.",2021-09-23,2021
+RELY,"Remitly Global, Inc.",2021-09-23,2021
+STER,Sterling Check Corp.,2021-09-23,2021
+AKA,a.k.a. Brands Holding Corp.,2021-09-22,2021
+FRSH,Freshworks Inc.,2021-09-22,2021
+TOST,"Toast, Inc.",2021-09-22,2021
+VBNK,VersaBank,2021-09-22,2021
+ACT,"Enact Holdings, Inc.",2021-09-16,2021
+BROS,Dutch Bros Inc.,2021-09-15,2021
+DH,Definitive Healthcare Corp.,2021-09-15,2021
+KTTA,Pasithea Therapeutics Corp.,2021-09-15,2021
+ONON,On Holding AG,2021-09-15,2021
+PRCT,PROCEPT BioRobotics Corporation,2021-09-15,2021
+TYRA,"Tyra Biosciences, Inc.",2021-09-15,2021
+SRAD,Sportradar Group AG,2021-09-14,2021
+GIPR,"Generation Income Properties, Inc.",2021-09-02,2021
+DDI,"DoubleDown Interactive Co., Ltd.",2021-08-31,2021
+RNXT,"RenovoRx, Inc.",2021-08-26,2021
+SWSS,Springwater Special Situations Corp.,2021-08-26,2021
+DRMA,"Dermata Therapeutics, Inc.",2021-08-13,2021
+IVVD,"Invivyd, Inc.",2021-08-06,2021
+EWCZ,"European Wax Center, Inc.",2021-08-05,2021
+DOLE,Dole plc,2021-07-30,2021
+IMRX,Immuneering Corporation,2021-07-30,2021
+INAB,"IN8bio, Inc.",2021-07-30,2021
+MXCT,"MaxCyte, Inc.",2021-07-30,2021
+OMGA,"Omega Therapeutics, Inc.",2021-07-30,2021
+RANI,"Rani Therapeutics Holdings, Inc.",2021-07-30,2021
+RXST,"RxSight, Inc.",2021-07-30,2021
+TNYA,"Tenaya Therapeutics, Inc.",2021-07-30,2021
+COOK,"Traeger, Inc.",2021-07-29,2021
+HOOD,"Robinhood Markets, Inc.",2021-07-29,2021
+NUVL,"Nuvalent, Inc.",2021-07-29,2021
+RLYB,Rallybio Corporation,2021-07-29,2021
+RSKD,Riskified Ltd.,2021-07-29,2021
+DUOL,"Duolingo, Inc.",2021-07-28,2021
+CADL,"Candel Therapeutics, Inc.",2021-07-27,2021
+CNM,"Core & Main, Inc.",2021-07-23,2021
+CRBU,"Caribou Biosciences, Inc.",2021-07-23,2021
+CTKB,"Cytek Biosciences, Inc.",2021-07-23,2021
+GAMB,Gambling.com Group Limited,2021-07-23,2021
+SOPH,SOPHiA GENETICS SA,2021-07-23,2021
+USCB,"USCB Financial Holdings, Inc.",2021-07-23,2021
+XPOF,"Xponential Fitness, Inc.",2021-07-23,2021
+ABSI,Absci Corporation,2021-07-22,2021
+RYAN,"Ryan Specialty Holdings, Inc.",2021-07-22,2021
+ZENV,Zenvia Inc.,2021-07-22,2021
+ZVIA,Zevia PBC,2021-07-22,2021
+KLTR,"Kaltura, Inc.",2021-07-21,2021
+LAW,"CS Disco, Inc.",2021-07-21,2021
+PYCR,"Paycor HCM, Inc.",2021-07-21,2021
+VEEE,Twin Vee Powercats Co.,2021-07-21,2021
+VTEX,VTEX,2021-07-21,2021
+HCWB,HCW Biologics Inc.,2021-07-20,2021
+BLND,"Blend Labs, Inc.",2021-07-16,2021
+ERAS,"Erasca, Inc.",2021-07-16,2021
+RGC,Regencell Bioscience Holdings Limited,2021-07-16,2021
+STVN,Stevanato Group S.p.A.,2021-07-16,2021
+TCRX,"TScan Therapeutics, Inc.",2021-07-16,2021
+FXLV,"F45 Training Holdings, Inc.",2021-07-15,2021
+PECO,"Phillips Edison & Company, Inc.",2021-07-15,2021
+RPID,"Rapid Micro Biosystems, Inc.",2021-07-15,2021
+SERA,"Sera Prognostics, Inc.",2021-07-15,2021
+SGHT,"Sight Sciences, Inc.",2021-07-15,2021
+IINN,Inspira Technologies Oxy B.H.N. Ltd.,2021-07-14,2021
+UNCY,"Unicycive Therapeutics, Inc.",2021-07-13,2021
+RNAZ,"TransCode Therapeutics, Inc.",2021-07-09,2021
+SNTG,Sentage Holdings Inc.,2021-07-09,2021
+MITQ,"Moving iMage Technologies, Inc.",2021-07-08,2021
+NYXH,Nyxoah SA,2021-07-02,2021
+ABOS,"Acumen Pharmaceuticals, Inc.",2021-07-01,2021
+CURV,Torrid Holdings Inc.,2021-07-01,2021
+DNUT,"Krispy Kreme, Inc.",2021-07-01,2021
+EVCM,EverCommerce Inc.,2021-07-01,2021
+HEPS,D-Market Elektronik Hizmetler ve Ticaret A.S.,2021-07-01,2021
+WAVE,Eco Wave Power Global AB (publ),2021-07-01,2021
+CPOP,"Pop Culture Group Co., Ltd",2021-06-30,2021
+CVRX,"CVRx, Inc.",2021-06-30,2021
+DIDIY,DiDi Global Inc.,2021-06-30,2021
+INTA,"Intapp, Inc.",2021-06-30,2021
+LZ,"LegalZoom.com, Inc.",2021-06-30,2021
+S,"SentinelOne, Inc.",2021-06-30,2021
+XMTR,"Xometry, Inc.",2021-06-30,2021
+YOU,"Clear Secure, Inc.",2021-06-30,2021
+DDL,Dingdong (Cayman) Limited,2021-06-29,2021
+ACXP,"Acurx Pharmaceuticals, Inc.",2021-06-25,2021
+GHRS,GH Research PLC,2021-06-25,2021
+GMVDF,G Medical Innovations Holdings Ltd.,2021-06-25,2021
+LENZ,"LENZ Therapeutics, Inc.",2021-06-25,2021
+MCW,"Mister Car Wash, Inc.",2021-06-25,2021
+TKNO,"Alpha Teknova, Inc.",2021-06-25,2021
+BON,Bon Natural Life Limited,2021-06-24,2021
+CFLT,"Confluent, Inc.",2021-06-24,2021
+DOCS,"Doximity, Inc.",2021-06-24,2021
+GLUE,"Monte Rosa Therapeutics, Inc.",2021-06-24,2021
+UPXI,"Upexi, Inc.",2021-06-24,2021
+CXM,"Sprinklr, Inc.",2021-06-23,2021
+FA,First Advantage Corporation,2021-06-23,2021
+YMM,Full Truck Alliance Co. Ltd.,2021-06-22,2021
+ATAI,AtaiBeckley Inc.,2021-06-18,2021
+FEMY,Femasys Inc.,2021-06-18,2021
+IPSC,"Century Therapeutics, Inc.",2021-06-18,2021
+NEXN,Nexxen International Ltd.,2021-06-18,2021
+RERE,ATRenew Inc.,2021-06-18,2021
+TBIO,Telesis Bio Inc.,2021-06-18,2021
+AOMR,"Angel Oak Mortgage REIT, Inc.",2021-06-17,2021
+ISPC,iSpecimen Inc.,2021-06-17,2021
+LYEL,"Lyell Immunopharma, Inc.",2021-06-17,2021
+MOLN,Molecular Partners AG,2021-06-16,2021
+ALZN,"Alzamend Neuro, Inc.",2021-06-15,2021
+BZ,Kanzhun Limited,2021-06-11,2021
+JANX,"Janux Therapeutics, Inc.",2021-06-11,2021
+TASK,"TaskUs, Inc.",2021-06-11,2021
+DIBS,"1stdibs.Com, Inc.",2021-06-10,2021
+LFST,"LifeStance Health Group, Inc.",2021-06-10,2021
+MNDY,monday.com Ltd.,2021-06-10,2021
+ZETA,Zeta Global Holdings Corp.,2021-06-10,2021
+MQ,"Marqeta, Inc.",2021-06-09,2021
+DLO,DLocal Limited,2021-06-03,2021
+CNTA,Centessa Pharmaceuticals plc,2021-05-28,2021
+DAWN,"Day One Biopharmaceuticals, Inc.",2021-05-27,2021
+FIGS,"FIGS, Inc.",2021-05-27,2021
+FLYW,Flywire Corporation,2021-05-26,2021
+PAY,"Paymentus Holdings, Inc.",2021-05-26,2021
+ZIP,"ZipRecruiter, Inc.",2021-05-26,2021
+OTLY,Oatly Group AB,2021-05-20,2021
+PCOR,"Procore Technologies, Inc.",2021-05-20,2021
+GIW,"GigInternational1, Inc.",2021-05-19,2021
+JZXN,"Jiuzi Holdings, Inc.",2021-05-18,2021
+DBGI,"Digital Brands Group, Inc.",2021-05-14,2021
+EJH,E-Home Household Service Holdings Limited,2021-05-14,2021
+VERA,"Vera Therapeutics, Inc.",2021-05-14,2021
+GLBE,Global-E Online Ltd.,2021-05-12,2021
+IPW,iPower Inc.,2021-05-12,2021
+SMWB,Similarweb Ltd.,2021-05-12,2021
+ANEB,"Anebulo Pharmaceuticals, Inc.",2021-05-07,2021
+BWMN,Bowman Consulting Group Ltd.,2021-05-07,2021
+WDH,Waterdrop Inc.,2021-05-07,2021
+VALN,Valneva SE,2021-05-06,2021
+FSBC,Five Star Bancorp,2021-05-05,2021
+HNST,"The Honest Company, Inc.",2021-05-05,2021
+ALF,"ALFI, Inc.",2021-05-04,2021
+BRNS,Barinthus Biotherapeutics plc,2021-04-30,2021
+HOWL,"Werewolf Therapeutics, Inc.",2021-04-30,2021
+AVAH,Aveanna Healthcare Holdings Inc.,2021-04-29,2021
+PRVA,"Privia Health Group, Inc.",2021-04-29,2021
+FTCI,"FTC Solar, Inc.",2021-04-28,2021
+RAIN,"Rain Therapeutics, Inc.",2021-04-23,2021
+SWIM,"Latham Group, Inc.",2021-04-23,2021
+TMCI,"Treace Medical Concepts, Inc.",2021-04-23,2021
+NPCE,"NeuroPace, Inc.",2021-04-22,2021
+DV,"DoubleVerify Holdings, Inc.",2021-04-21,2021
+PATH,"UiPath, Inc.",2021-04-21,2021
+SKYT,"SkyWater Technology, Inc.",2021-04-21,2021
+IFBD,"Infobird Co., Ltd",2021-04-20,2021
+BMEA,"Biomea Fusion, Inc.",2021-04-16,2021
+RXRX,"Recursion Pharmaceuticals, Inc.",2021-04-16,2021
+AGL,"agilon health, inc.",2021-04-15,2021
+APP,AppLovin Corporation,2021-04-15,2021
+EBET,"EBET, INC.",2021-04-15,2021
+KRT,Karat Packaging Inc.,2021-04-15,2021
+TSPH,"TuSimple Holdings, Inc.",2021-04-15,2021
+ALKT,"Alkami Technology, Inc.",2021-04-14,2021
+COIN,"Coinbase Global, Inc.",2021-04-14,2021
+WTO,UTime Limited,2021-04-06,2021
+COMP,"Compass, Inc.",2021-04-01,2021
+EM,Smart Share Global Limited,2021-04-01,2021
+KARO,Karooooo Ltd.,2021-04-01,2021
+ULCC,"Frontier Group Holdings, Inc.",2021-04-01,2021
+COUR,"Coursera, Inc.",2021-03-31,2021
+ALHC,"Alignment Healthcare, Inc.",2021-03-26,2021
+DSGN,"Design Therapeutics, Inc.",2021-03-26,2021
+EWTX,"Edgewise Therapeutics, Inc.",2021-03-26,2021
+TDUP,ThredUp Inc.,2021-03-26,2021
+ZH,Zhihu Inc.,2021-03-26,2021
+CRCT,"Cricut, Inc.",2021-03-25,2021
+EEIQ,EpicQuest Education Group International Limited,2021-03-25,2021
+SEMR,"Semrush Holdings, Inc.",2021-03-25,2021
+ACVA,ACV Auctions Inc.,2021-03-24,2021
+DOCN,"DigitalOcean Holdings, Inc.",2021-03-24,2021
+MOVE,Movano Inc.,2021-03-23,2021
+UPC,Universe Pharmaceuticals INC,2021-03-23,2021
+AFCG,Advanced Flower Capital Inc.,2021-03-19,2021
+CNTB,Connect Biopharma Holdings Limited,2021-03-19,2021
+FNCH,"Finch Therapeutics Group, Inc.",2021-03-19,2021
+TIL,"Instil Bio, Inc.",2021-03-19,2021
+GANX,"Gain Therapeutics, Inc.",2021-03-18,2021
+TUYA,Tuya Inc.,2021-03-18,2021
+JWEL,Jowell Global Ltd.,2021-03-17,2021
+SNCY,"Sun Country Airlines Holdings, Inc.",2021-03-17,2021
+WALD,Waldencast plc,2021-03-16,2021
+HAYW,"Hayward Holdings, Inc.",2021-03-12,2021
+STKH,Steakholder Foods Ltd.,2021-03-12,2021
+CPNG,"Coupang, Inc.",2021-03-11,2021
+RBLX,Roblox Corporation,2021-03-10,2021
+GROY,Gold Royalty Corp.,2021-03-09,2021
+INNV,InnovAge Holding Corp.,2021-03-04,2021
+OSCR,"Oscar Health, Inc.",2021-03-03,2021
+TWLV,Twelve Seas Investment Company II,2021-02-26,2021
+GLBL,Cartesian Growth Corporation,2021-02-24,2021
+CMII,"CM Life Sciences II, Inc.",2021-02-23,2021
+SLAM,Slam Corp.,2021-02-23,2021
+AUUD,Auddia Inc.,2021-02-17,2021
+VRPX,"Virpax Pharmaceuticals, Inc.",2021-02-17,2021
+LGVN,Longeveron Inc.,2021-02-12,2021
+NEXI,"NexImmune, Inc.",2021-02-12,2021
+TLIS,Talis Biomedical Corporation,2021-02-12,2021
+BMBL,Bumble Inc.,2021-02-11,2021
+BVS,Bioventus Inc.,2021-02-11,2021
+LDI,"loanDepot, Inc.",2021-02-11,2021
+DSP,Viant Technology Inc.,2021-02-10,2021
+ADAG,Adagene Inc.,2021-02-09,2021
+EPOW,E-Power Inc.,2021-02-09,2021
+GIG,"GigCapital4, Inc.",2021-02-09,2021
+RAASY,Cloopen Group Holding Limited,2021-02-09,2021
+BAOS,Baosheng Media Group Holdings Limited,2021-02-08,2021
+BOLT,"Bolt Biotherapeutics, Inc.",2021-02-05,2021
+CNEY,CN Energy Group. Inc.,2021-02-05,2021
+EVAX,Evaxion A/S,2021-02-05,2021
+IMCR,Immunocore Holdings plc,2021-02-05,2021
+PHVS,Pharvaris N.V.,2021-02-05,2021
+TERN,"Terns Pharmaceuticals, Inc.",2021-02-05,2021
+VOR,Vor Biopharma Inc.,2021-02-05,2021
+ACII,Atlas Crest Investment Corp. II,2021-02-04,2021
+NXU,Novus Capital Corporation II,2021-02-04,2021
+SANA,"Sana Biotechnology, Inc.",2021-02-04,2021
+SNSE,"Sensei Biotherapeutics, Inc.",2021-02-04,2021
+ONTF,"ON24, Inc.",2021-02-03,2021
+TRIN,Trinity Capital Inc.,2021-01-29,2021
+VINP,Vinci Compass Investments Ltd.,2021-01-28,2021
+ZIM,ZIM Integrated Shipping Services Ltd.,2021-01-28,2021
+SHLS,"Shoals Technologies Group, Inc.",2021-01-27,2021
+TIRX,Tian Ruixiang Holdings Ltd.,2021-01-27,2021
+EZGO,EZGO Technologies Ltd.,2021-01-26,2021
+HUDI,"Huadi International Group Co., Ltd.",2021-01-22,2021
+MNTK,"Montauk Renewables, Inc.",2021-01-22,2021
+PAX,Patria Investments Limited,2021-01-22,2021
+RLX,RLX Technology Inc.,2021-01-22,2021
+DFH,"Dream Finders Homes, Inc.",2021-01-21,2021
+DRVN,Driven Brands Holdings Inc.,2021-01-15,2021
+PLTK,Playtika Holding Corp.,2021-01-15,2021
+WOOF,"Petco Health and Wellness Company, Inc.",2021-01-14,2021
+AFRM,"Affirm Holdings, Inc.",2021-01-13,2021
+MSGM,Motorsport Games Inc.,2021-01-13,2021
+CGEM,"Cullinan Therapeutics, Inc.",2021-01-08,2021
+POW,Powered Brands,2021-01-08,2021
+COYA,"Coya Therapeutics, Inc.",2022-12-29,2022
+LIPO,Lipella Pharmaceuticals Inc.,2022-12-20,2022
+RAYA,Erayak Power Solution Group Inc.,2022-12-14,2022
+JEWL,Adamas One Corp.,2022-12-09,2022
+ACRV,"Acrivon Therapeutics, Inc.",2022-11-15,2022
+ATAT,Atour Lifestyle Holdings Limited,2022-11-11,2022
+ASPI,ASP Isotopes Inc.,2022-11-10,2022
+SNAL,"Snail, Inc.",2022-11-10,2022
+MBLY,Mobileye Global Inc.,2022-10-26,2022
+PRME,"Prime Medicine, Inc.",2022-10-20,2022
+DMYY,"dMY Squared Technology Group, Inc.",2022-09-30,2022
+LASE,Laser Photonics Corporation,2022-09-30,2022
+NXU,"Nxu, Inc.",2022-09-27,2022
+NXL,"Nexalin Technology, Inc.",2022-09-16,2022
+CRBG,"Corebridge Financial, Inc.",2022-09-15,2022
+WLDS,Wearable Devices Ltd.,2022-09-13,2022
+BIAF,"bioAffinity Technologies, Inc.",2022-09-01,2022
+SHPH,"Shuttle Pharmaceuticals Holdings, Inc.",2022-08-31,2022
+HPCO,"Hempacco Co., Inc.",2022-08-30,2022
+JFBR,Jeffs' Brands Ltd,2022-08-26,2022
+JZ,Jianzhi Education Technology Group Company Limited,2022-08-26,2022
+ONFO,"Onfolio Holdings, Inc.",2022-08-26,2022
+PXMD,"PaxMedica, Inc.",2022-08-26,2022
+MOB,Mobilicom Limited,2022-08-25,2022
+GCT,GigaCloud Technology Inc.,2022-08-18,2022
+LUCY,"Lucyd, Inc",2022-08-15,2022
+REBN,"Reborn Coffee, Inc.",2022-08-12,2022
+TGL,Treasure Global Inc.,2022-08-11,2022
+MEGL,Magic Empire Global Limited,2022-08-05,2022
+MGAM,Mobile Global Esports Inc.,2022-07-29,2022
+MAIA,"MAIA Biotechnology, Inc.",2022-07-28,2022
+VRAX,Virax Biolabs Group Limited,2022-07-21,2022
+HKD,AMTD Digital Inc.,2022-07-15,2022
+ILAG,Intelligent Living Application Group Inc.,2022-07-13,2022
+IE,Ivanhoe Electric Inc.,2022-06-28,2022
+GSUN,Golden Sun Technology Group Limited,2022-06-22,2022
+HSCS,HeartSciences Inc.,2022-06-15,2022
+LYT,Lytus Technologies Holdings PTV. LTD.,2022-06-15,2022
+PEV,Phoenix Motor Inc.,2022-06-08,2022
+SVRE,SaverOne 2014 Ltd.,2022-06-03,2022
+TOP,TOP Financial Group Limited,2022-06-01,2022
+BNRG,Brenmiller Energy Ltd,2022-05-24,2022
+BGXX,Bright Green Corporation,2022-05-17,2022
+GV,Visionary Holdings Inc.,2022-05-17,2022
+OKYO,OKYO Pharma Limited,2022-05-17,2022
+ACDC,ProFrac Holding Corp.,2022-05-13,2022
+ASNS,"Actelis Networks, Inc.",2022-05-13,2022
+HNVR,"Hanover Bancorp, Inc.",2022-05-11,2022
+BLCO,Bausch + Lomb Corporation,2022-05-06,2022
+PEPG,PepGen Inc.,2022-05-06,2022
+RENE,Cartesian Growth Corporation II,2022-05-06,2022
+EDBL,Edible Garden AG Incorporated,2022-05-05,2022
+AUST,Austin Gold Corp.,2022-05-04,2022
+BLTE,"Belite Bio, Inc",2022-04-29,2022
+CLRC,ClimateRock,2022-04-28,2022
+OST,"Ostin Technology Group Co., Ltd.",2022-04-27,2022
+TNON,"Tenon Medical, Inc.",2022-04-27,2022
+AIMAU,Aimfinity Investment Corp. I,2022-04-26,2022
+ACON,"Aclarion, Inc.",2022-04-22,2022
+JCSE,JE Cleantech Holdings Limited,2022-04-22,2022
+STSS,"Sharps Technology, Inc.",2022-04-14,2022
+EE,"Excelerate Energy, Inc.",2022-04-13,2022
+GNS,Genius Group Limited,2022-04-12,2022
+XPON,Expion360 Inc.,2022-04-01,2022
+RVSN,Rail Vision Ltd.,2022-03-31,2022
+ANTX,"AN2 Therapeutics, Inc.",2022-03-25,2022
+LCFY,Locafy Limited,2022-03-25,2022
+AKAN,Akanda Corp.,2022-03-15,2022
+VMCA,Valuence Merger Corp. I,2022-03-01,2022
+FGMC,FG Merger Corp.,2022-02-25,2022
+ONCO,"Onconetix, Inc.",2022-02-18,2022
+SMFL,"Smart for Life, Inc.",2022-02-16,2022
+DRCT,"Direct Digital Holdings, Inc.",2022-02-11,2022
+MDV,"Modiv Industrial, Inc.",2022-02-11,2022
+TCBP,TC BioPharm (Holdings) plc,2022-02-11,2022
+HTCR,"HeartCore Enterprises, Inc.",2022-02-10,2022
+SKYX,SKYX Platforms Corp.,2022-02-10,2022
+EVGR,Evergreen Corporation,2022-02-09,2022
+ACLX,"Arcellx, Inc.",2022-02-04,2022
+NVCT,"Nuvectis Pharma, Inc.",2022-02-04,2022
+MTEK,Maris-Tech Ltd.,2022-02-02,2022
+CRDO,Credo Technology Group Holding Ltd,2022-01-27,2022
+KSCP,"Knightscope, Inc.",2022-01-27,2022
+FGI,FGI Industries Ltd.,2022-01-25,2022
+TKLF,"Tokyo Lifestyle Co., Ltd.",2022-01-18,2022
+PPYA,Papaya Growth Opportunity Corp. I,2022-01-14,2022
+TPG,TPG Inc.,2022-01-13,2022
+AMLX,"Amylyx Pharmaceuticals, Inc.",2022-01-07,2022
+HOUR,"Hour Loop, Inc.",2022-01-07,2022
+LGCB,Linkage Global Inc,2023-12-19,2023
+ZKH,ZKH Group Limited,2023-12-15,2023
+INHD,Inno Holdings Inc.,2023-12-14,2023
+AFJK,"Aimei Health Technology Co., Ltd",2023-12-04,2023
+GSIW,Garden Stage Limited,2023-12-01,2023
+FEBO,Fenbo Holdings Limited,2023-11-30,2023
+ELAB,PMGC Holdings Inc.,2023-11-21,2023
+DDC,DDC Enterprise Limited,2023-11-17,2023
+RR,Richtech Robotics Inc.,2023-11-17,2023
+SGN,"Signing Day Sports, Inc.",2023-11-14,2023
+SHIM,Shimmick Corporation,2023-11-14,2023
+HG,"Hamilton Insurance Group, Ltd.",2023-11-10,2023
+GVH,Globavend Holdings Limited,2023-11-08,2023
+LXEO,"Lexeo Therapeutics, Inc.",2023-11-03,2023
+PAPL,Pineapple Financial Inc.,2023-11-01,2023
+ATGL,Alpha Technology Group Limited,2023-10-31,2023
+MNR,Mach Natural Resources LP,2023-10-25,2023
+NCL,Northann Corp.,2023-10-19,2023
+WBUY,Webuy Global Ltd,2023-10-19,2023
+BIRK,Birkenstock Holding plc,2023-10-11,2023
+GMM,Global Mofy AI Limited,2023-10-10,2023
+LRHC,La Rosa Holdings Corp.,2023-10-10,2023
+PMEC,Primech Holdings Ltd.,2023-10-10,2023
+GPAK,Gamer Pakistan Inc.,2023-10-09,2023
+MSS,Maison Solutions Inc.,2023-10-05,2023
+ANL,Adlai Nortye Ltd.,2023-09-29,2023
+SYRA,Syra Health Corp.,2023-09-29,2023
+VSME,VS MEDIA Holdings Limited,2023-09-28,2023
+LRE,"Lead Real Estate Co., Ltd",2023-09-27,2023
+TURB,"Turbo Energy, S.A.",2023-09-22,2023
+MDBH,"MDB Capital Holdings, LLC",2023-09-21,2023
+KVYO,"Klaviyo, Inc.",2023-09-20,2023
+CART,Maplebear Inc.,2023-09-19,2023
+DTCK,Davis Commodities Limited,2023-09-19,2023
+NMRA,"Neumora Therapeutics, Inc.",2023-09-15,2023
+ARM,Arm Holdings plc,2023-09-14,2023
+SPPL,Simpple Ltd.,2023-09-13,2023
+NWGL,CL Workshop Group Limited,2023-09-12,2023
+IVP,"Inspire Veterinary Partners, Inc.",2023-08-30,2023
+NRXS,"NeurAxis, Inc.",2023-08-09,2023
+MIRA,"MIRA Pharmaceuticals, Inc.",2023-08-03,2023
+CTNT,Cheetah Net Supply Chain Service Inc.,2023-08-01,2023
+PRZO,ParaZero Technologies Ltd.,2023-07-27,2023
+SRFM,Surf Air Mobility Inc.,2023-07-27,2023
+ELWS,"Earlyworks Co., Ltd.",2023-07-25,2023
+ODD,Oddity Tech Ltd.,2023-07-19,2023
+APGE,"Apogee Therapeutics, Inc.",2023-07-14,2023
+SGMT,Sagimet Biosciences Inc.,2023-07-14,2023
+SXTP,"60 Degrees Pharmaceuticals, Inc.",2023-07-12,2023
+INTS,"Intensity Therapeutics, Inc.",2023-06-30,2023
+VTMX,"CorporaciÃ³n Inmobiliaria Vesta, S.A.B. de C.V.",2023-06-30,2023
+FIHL,Fidelis Insurance Holdings Limited,2023-06-29,2023
+KGS,"Kodiak Gas Services, Inc.",2023-06-29,2023
+SVV,"Savers Value Village, Inc.",2023-06-29,2023
+GENK,"GEN Restaurant Group, Inc.",2023-06-28,2023
+AZTR,"Azitra, Inc.",2023-06-16,2023
+BOF,BranchOut Food Inc.,2023-06-16,2023
+CAVA,"CAVA Group, Inc.",2023-06-15,2023
+ATMU,Atmus Filtration Technologies Inc.,2023-05-26,2023
+ATS,ATS Corporation,2023-05-25,2023
+CWD,CaliberCos Inc.,2023-05-17,2023
+KVUE,Kenvue Inc.,2023-05-04,2023
+TRNR,Interactive Strength Inc.,2023-04-28,2023
+JYD,Jayud Global Logistics Limited,2023-04-21,2023
+UCAR,U Power Limited,2023-04-20,2023
+USGO,U.S. GoldMining Inc.,2023-04-20,2023
+WLGS,"Wang & Lee Group, Inc.",2023-04-20,2023
+TPET,Trio Petroleum Corp.,2023-04-18,2023
+WAI,Top KingWin Ltd,2023-04-18,2023
+GDTC,CytoMed Therapeutics Limited,2023-04-14,2023
+VCIG,VCI Global Limited,2023-04-13,2023
+GDHG,Golden Heaven Group Holdings Ltd.,2023-04-12,2023
+ARBB,ARB IOT Group Limited,2023-04-05,2023
+ISPR,Ispire Technology Inc.,2023-04-04,2023
+MGIH,Millennium Group International Holdings Limited,2023-04-04,2023
+MWG,Multi Ways Holdings Limited,2023-04-03,2023
+HKIT,Hitek Global Inc.,2023-03-31,2023
+HSHP,Himalaya Shipping Ltd.,2023-03-31,2023
+SFWL,Shengfeng Development Limited,2023-03-31,2023
+CHSN,Chanson International Holding,2023-03-30,2023
+HLP,Hongli Group Inc.,2023-03-29,2023
+TBMC,"Trailblazer Holdings, Inc.",2023-03-29,2023
+YGFGF,"YanGuFang International Group Co., Ltd.",2023-03-28,2023
+ZJYL,Jin Medical International Ltd.,2023-03-28,2023
+BANL,CBL International Limited,2023-03-23,2023
+MGRX,"Mangoceuticals, Inc.",2023-03-21,2023
+OMH,Ohmyhome Limited,2023-03-21,2023
+ICG,Intchains Group Limited,2023-03-16,2023
+IZM,ICZOOM Group Inc.,2023-03-15,2023
+AESI,Atlas Energy Solutions Inc.,2023-03-09,2023
+AIXI,Xiao-I Corporation,2023-03-09,2023
+BMR,Beamr Imaging Ltd.,2023-02-28,2023
+GXAI,Gaxos.ai Inc.,2023-02-15,2023
+BFRG,"Bullfrog AI Holdings, Inc.",2023-02-14,2023
+ENLT,Enlight Renewable Energy Ltd,2023-02-10,2023
+MLYS,"Mineralys Therapeutics, Inc.",2023-02-10,2023
+HSAI,Hesai Group,2023-02-09,2023
+LSDIF,Lucy Scientific Discovery Inc.,2023-02-09,2023
+NXT,Nextpower Inc.,2023-02-09,2023
+LICN,Lichen International Limited,2023-02-06,2023
+ASST,"Strive Asset Management, LLC",2023-02-03,2023
+GPCR,Structure Therapeutics Inc.,2023-02-03,2023
+TXO,"TXO Partners, L.P.",2023-01-27,2023
+GNLX,Genelux Corporation,2023-01-26,2023
+CVKD,"Cadrenal Therapeutics, Inc.",2023-01-20,2023
+SKWD,"Skyward Specialty Insurance Group, Inc.",2023-01-13,2023
+ONEG,OneConstruction Group Limited,2024-12-31,2024
+HIT,"Health In Tech, Inc.",2024-12-23,2024
+YAAS,Youxin Technology Ltd,2024-12-20,2024
+LSE,"Leishen Energy Holding Co., Ltd.",2024-12-19,2024
+NCEW,New Century Logistics (BVI) Limited,2024-12-18,2024
+YSXT,"YSX Tech. Co., Ltd",2024-12-18,2024
+AVR,Anteris Technologies Global Corp.,2024-12-13,2024
+NTCL,NetClass Technology Inc,2024-12-13,2024
+TTAN,"ServiceTitan, Inc.",2024-12-12,2024
+NAMI,Jinxin Technology Holding Company,2024-12-06,2024
+LNKS,Linkers Industries Limited,2024-12-05,2024
+JUNS,"Jupiter Neurosciences, Inc.",2024-12-03,2024
+BRIA,BrilliA Inc,2024-11-27,2024
+GRO,Brazil Potash Corp.,2024-11-27,2024
+PONY,Pony AI Inc.,2024-11-27,2024
+VENU,Venu Holding Corporation,2024-11-27,2024
+CGTL,Creative Global Technology Holdings Limited,2024-11-26,2024
+WYHG,Wing Yip Food Holdings Group Limited,2024-11-26,2024
+IPST,"IP Strategy Holdings, Inc.",2024-11-22,2024
+MSW,Ming Shing Group Holdings Limited,2024-11-22,2024
+ETHM,Dynamix Corporation,2024-11-21,2024
+NOEM,CO2 Energy Transition Corp.,2024-11-21,2024
+GELS,Gelteq Limited,2024-10-29,2024
+PLRZ,Polyrizon Ltd.,2024-10-29,2024
+SEPN,"Septerna, Inc.",2024-10-25,2024
+WRD,WeRide Inc.,2024-10-25,2024
+INGM,Ingram Micro Holding Corporation,2024-10-24,2024
+FGL,Founder Group Limited,2024-10-23,2024
+LBGJ,Li Bang International Corporation Inc.,2024-10-23,2024
+ROLR,"High Roller Technologies, Inc.",2024-10-23,2024
+ALDF,Aldel Financial II Inc.,2024-10-22,2024
+HUHU,HUHUTECH International Group Inc.,2024-10-22,2024
+ORIS,Oriental Rise Holdings Limited,2024-10-17,2024
+SPHL,Springview Holdings Ltd,2024-10-17,2024
+PTLE,PTL Limited,2024-10-16,2024
+SFHG,Samfine Creation Holdings Group Limited,2024-10-15,2024
+CAMP,Camp4 Therapeutics Corporation,2024-10-11,2024
+CBLL,"CeriBell, Inc.",2024-10-11,2024
+UPB,"Upstream Bio, Inc.",2024-10-11,2024
+CLIK,Click Holdings Limited,2024-10-09,2024
+KLC,"KinderCare Learning Companies, Inc.",2024-10-09,2024
+SKK,SKK Holdings Limited,2024-10-08,2024
+CBNA,"Chain Bridge Bancorp, Inc.",2024-10-04,2024
+FLX,BingEx Limited,2024-10-04,2024
+FVR,"FrontView REIT, Inc.",2024-10-02,2024
+SARO,"StandardAero, Inc.",2024-10-02,2024
+WCT,Wellchange Holdings Company Limited,2024-10-02,2024
+HTLM,HomesToLife Ltd.,2024-10-01,2024
+ZJK,"ZJK Industrial Co., Ltd.",2024-09-30,2024
+BIOA,"BioAge Labs, Inc.",2024-09-26,2024
+BKV,BKV Corporation,2024-09-26,2024
+GRDN,"Guardian Pharmacy Services, Inc.",2024-09-26,2024
+IBG,Innovation Beverage Group Limited,2024-09-26,2024
+LGCY,Legacy Education Inc.,2024-09-26,2024
+PC,Premium Catering (Holdings) Limited,2024-09-25,2024
+GLE,Global Engine Group Holding Limited,2024-09-20,2024
+IBO,Impact BioMedical Inc.,2024-09-16,2024
+KAPA,"Kairos Pharma, Ltd.",2024-09-16,2024
+BCAX,Bicara Therapeutics Inc.,2024-09-13,2024
+MBX,"MBX Biosciences, Inc.",2024-09-13,2024
+ZBIO,"Zenas BioPharma, Inc.",2024-09-13,2024
+GLXG,Galaxy Payroll Group Limited,2024-09-12,2024
+TDTH,Trident Digital Tech Holdings Ltd,2024-09-10,2024
+XCH,XCHG Limited,2024-09-10,2024
+VCIC,Vine Hill Capital Investment Corp.,2024-09-06,2024
+PMAX,Powell Max Limited,2024-09-05,2024
+GIG,GigCapital7 Corp.,2024-08-29,2024
+AZI,Autozi Internet Technology (Global) Ltd.,2024-08-28,2024
+SPAI,Safe Pro Group Inc.,2024-08-28,2024
+JBDI,JBDI Holdings Limited,2024-08-27,2024
+RITR,Reitar Logtech Holdings Limited,2024-08-23,2024
+WOK,WORK Medical Technology Group LTD,2024-08-23,2024
+SBXD,SilverBox Corp IV,2024-08-16,2024
+YXT,YXT.COM Group Holding Limited,2024-08-16,2024
+ACTU,"Actuate Therapeutics, Inc.",2024-08-13,2024
+OSTX,OS Therapies Incorporated,2024-08-01,2024
+NIPG,NIP Group Inc.,2024-07-26,2024
+CON,"Concentra Group Holdings Parent, Inc.",2024-07-25,2024
+LINE,"Lineage, Inc.",2024-07-25,2024
+ORKT,Orangekloud Technology Inc.,2024-07-25,2024
+OS,"OneStream, Inc.",2024-07-24,2024
+ARTV,"Artiva Biotherapeutics, Inc.",2024-07-19,2024
+QMMM,QMMM Holdings Limited,2024-07-19,2024
+ARDT,"Ardent Health, Inc.",2024-07-18,2024
+TWFG,"TWFG, Inc.",2024-07-18,2024
+ICON,Icon Energy Corp.,2024-07-12,2024
+EHGO,Eshallgo Inc.,2024-07-02,2024
+ALMS,Alumis Inc.,2024-06-28,2024
+LB,LandBridge Company LLC,2024-06-28,2024
+LSH,Lakeside Holding Limited,2024-06-28,2024
+TBN,Tamboran Resources Corporation,2024-06-27,2024
+WBTN,WEBTOON Entertainment Inc.,2024-06-27,2024
+GRAF,Graf Global Corp.,2024-06-26,2024
+RECT,Rectitude Holdings Ltd,2024-06-21,2024
+CUB,Lionheart Holdings,2024-06-18,2024
+TEM,"Tempus AI, Inc.",2024-06-14,2024
+PCSC,Perceptive Capital Solutions Corp,2024-06-12,2024
+RAPP,"Rapport Therapeutics, Inc.",2024-06-07,2024
+WAY,Waystar Holding Corp.,2024-06-07,2024
+FLYE,"Fly-E Group, Inc.",2024-06-06,2024
+GAUZ,Gauzy Ltd.,2024-06-06,2024
+BOW,Bowhead Specialty Holdings Inc.,2024-05-23,2024
+HDL,Super Hi International Holding Ltd.,2024-05-17,2024
+JDZG,JIADE Limited,2024-05-15,2024
+RAY,Raytech Holding Limited,2024-05-15,2024
+BTOC,Armlogi Holding Corp.,2024-05-14,2024
+PAL,"Proficient Auto Logistics, Inc.",2024-05-09,2024
+SVCO,"Silvaco Group, Inc.",2024-05-09,2024
+NNE,NANO Nuclear Energy Inc.,2024-05-08,2024
+CCIX,Churchill Capital Corp IX,2024-05-02,2024
+VIK,Viking Holdings Ltd,2024-05-01,2024
+ZONE,"CleanCore Solutions, Inc.",2024-04-26,2024
+LOAR,Loar Holdings Inc.,2024-04-25,2024
+MRX,Marex Group plc,2024-04-25,2024
+RBRK,"Rubrik, Inc.",2024-04-25,2024
+NCI,Neo-Concept International Group Holdings Limited,2024-04-23,2024
+MFI,mF International Limited,2024-04-22,2024
+YYGH,YY Group Holding Limited,2024-04-22,2024
+TRSG,Tungray Technologies Inc.,2024-04-19,2024
+CDTG,CDT Environmental Technology Investment Holdings Limited,2024-04-18,2024
+CTRI,"Centuri Holdings, Inc.",2024-04-18,2024
+IBTA,"Ibotta, Inc.",2024-04-18,2024
+MTEN,Mingteng International Corporation Inc.,2024-04-18,2024
+TWG,Top Wealth Group Holding Limited,2024-04-16,2024
+ULS,UL Solutions Inc.,2024-04-12,2024
+PACS,"PACS Group, Inc.",2024-04-11,2024
+MNDR,Mobile-health Network Solutions,2024-04-10,2024
+CTNM,"Contineum Therapeutics, Inc.",2024-04-05,2024
+MAMO,Massimo Group,2024-04-02,2024
+ZBAO,Zhibao Technology Inc.,2024-04-02,2024
+BOLD,"Boundless Bio, Inc.",2024-03-28,2024
+MMA,Mixed Martial Arts Group Limited,2024-03-28,2024
+UBXG,U-BX Technology Ltd.,2024-03-28,2024
+AUNA,Auna S.A.,2024-03-22,2024
+LOBO,Lobo Technologies Ltd.,2024-03-21,2024
+RDDT,"Reddit, Inc.",2024-03-21,2024
+ALAB,"Astera Labs, Inc.",2024-03-20,2024
+INTJ,Intelligent Group Limited,2024-03-20,2024
+RYDE,Ryde Group Ltd,2024-03-06,2024
+LGCL,Lucas GC Limited,2024-03-05,2024
+SMXT,"SolarMax Technology, Inc.",2024-02-27,2024
+VHAI,Vocodia Holdings Corp,2024-02-22,2024
+UMAC,"Unusual Machines, Inc.",2024-02-14,2024
+MGX,"Metagenomi Therapeutics, Inc.",2024-02-09,2024
+TBBB,BBB Foods Inc.,2024-02-09,2024
+TELO,"Telomir Pharmaceuticals, Inc.",2024-02-09,2024
+KYTX,"Kyverna Therapeutics, Inc.",2024-02-08,2024
+PMNT,Perfect Moment Ltd.,2024-02-08,2024
+AHR,"American Healthcare REIT, Inc.",2024-02-07,2024
+LEGT,Legato Merger Corp. III,2024-02-06,2024
+ANRO,"Alto Neuroscience, Inc.",2024-02-02,2024
+GUTS,"Fractyl Health, Inc.",2024-02-02,2024
+AS,"Amer Sports, Inc.",2024-02-01,2024
+FBLG,"FibroBiologics, Inc.",2024-01-31,2024
+AVBP,"ArriVent BioPharma, Inc.",2024-01-26,2024
+BTSG,"BrightSpring Health Services, Inc.",2024-01-26,2024
+HAO,Haoxi Health Technology Limited,2024-01-26,2024
+CGON,"CG Oncology, Inc.",2024-01-25,2024
+YIBO,Planet Image International Limited,2024-01-25,2024
+JL,J-Long Group Limited,2024-01-24,2024
+SUGP,SU Group Holdings Limited,2024-01-24,2024
+KSPI,Joint Stock Company Kaspi.kz,2024-01-19,2024
+CCTG,CCSC Technology International Holdings Limited,2024-01-18,2024
+PSBD,Palmer Square Capital BDC Inc.,2024-01-18,2024
+SYNX,Silynxcom Ltd.,2024-01-12,2024
+SDHC,Smith Douglas Homes Corp.,2024-01-11,2024
+ROMA,Roma Green Finance Limited,2024-01-09,2024
+SCPQ,Social Commerce Partners Corporation,2025-12-23,2025
+BEBE,TGE Value Creative Solutions Corp,2025-12-19,2025
+VHCP,Vine Hill Capital Investment Corp. II,2025-12-18,2025
+ANDG,Andersen Group Inc.,2025-12-17,2025
+CCXI,Churchill Capital Corp XI,2025-12-17,2025
+MDLN,Medline Inc.,2025-12-17,2025
+TWLV,Twelve Seas Investment Company III,2025-12-12,2025
+WLTH,Wealthfront Corporation,2025-12-12,2025
+KBON,Karbon Capital Partners Corp.,2025-12-11,2025
+LMRI,"Lumexa Imaging Holdings, Inc.",2025-12-11,2025
+CDNL,Cardinal Infrastructure Group Inc.,2025-12-10,2025
+JMG,JM Group Limited,2025-12-10,2025
+RGNT,Regentis Biomaterials Ltd.,2025-12-04,2025
+SMJF,SMJ International Holdings Inc.,2025-12-04,2025
+PARK,"Park Dental Partners, Inc.",2025-12-03,2025
+SBXE,SilverBox Corp V,2025-12-03,2025
+GLOO,"Gloo Holdings, Inc.",2025-11-19,2025
+OTH,Off The Hook YS Inc.,2025-11-13,2025
+POAS,Phaos Technology Holdings (Cayman) Limited,2025-11-13,2025
+AERO,"Grupo AeromÃ©xico, S.A.B. de C.V.",2025-11-06,2025
+BLLN,"BillionToOne, Inc.",2025-11-06,2025
+EVMN,"Evommune, Inc.",2025-11-06,2025
+ELWT,"Elauwit Connection, Inc.",2025-11-05,2025
+XZO,"Exzeo Group, Inc.",2025-11-05,2025
+BETA,"BETA Technologies, Inc.",2025-11-04,2025
+CEPV,"Cantor Equity Partners V, Inc.",2025-11-04,2025
+DNMX,Dynamix Corporation III,2025-10-30,2025
+NAVN,"Navan, Inc.",2025-10-30,2025
+DYOR,Insight Digital Partners II,2025-10-29,2025
+APXT,Apex Treasury Corporation,2025-10-28,2025
+MPLT,"MapLight Therapeutics, Inc.",2025-10-27,2025
+AGCC,Agencia Comercial Spirits Ltd,2025-10-22,2025
+NPT,Texxon Holding Limited,2025-10-22,2025
+AHMA,Ambitions Enterprise Management Co. L.L.C,2025-10-21,2025
+BGIN,Bgin Blockchain Limited,2025-10-21,2025
+MCTA,Charming Medical Limited,2025-10-21,2025
+ACCL,Acco Group Holdings Limited,2025-10-17,2025
+SLGB,Smart Logistics Global Limited,2025-10-15,2025
+TCGL,TechCreate Group Ltd.,2025-10-15,2025
+RPGL,Republic Power Group Limited,2025-10-14,2025
+ALH,Alliance Laundry Holdings Inc.,2025-10-09,2025
+LFS,"Leifras Co., Ltd.",2025-10-09,2025
+PXED,"Phoenix Education Partners, Inc.",2025-10-09,2025
+YDDL,One and one Green Technologies. Inc,2025-10-09,2025
+POM,Pomdoctor Limited,2025-10-08,2025
+GIW,GigCapital8 Corp.,2025-10-06,2025
+CCHH,CCH Holdings Ltd,2025-10-03,2025
+CBK,"Commercial Bancgroup, Inc.",2025-10-02,2025
+AGRZ,Agroz Inc.,2025-10-01,2025
+FRMI,Fermi Inc.,2025-10-01,2025
+NP,Neptune Insurance Holdings Inc.,2025-10-01,2025
+BCSS,Bain Capital GSS Investment Corp.,2025-09-30,2025
+BDCI,BTC Development Corp.,2025-09-30,2025
+KNRX,Knorex Ltd.,2025-09-29,2025
+MGN,Megan Holdings Limited,2025-09-26,2025
+PLTS,Platinum Analytics Cayman Limited,2025-09-19,2025
+PTRN,Pattern Group Inc.,2025-09-19,2025
+NTSK,"Netskope, Inc.",2025-09-18,2025
+STUB,"StubHub Holdings, Inc.",2025-09-17,2025
+WBI,WaterBridge Infrastructure LLC,2025-09-17,2025
+CHOW,ChowChow Cloud International Holdings Limited,2025-09-16,2025
+BRCB,"Black Rock Coffee Bar, Inc.",2025-09-12,2025
+FOFO,"Hang Feng Technology Innovation Co., Ltd.",2025-09-12,2025
+LGN,Legence Corp.,2025-09-12,2025
+VIA,"Via Transportation, Inc.",2025-09-12,2025
+FIGR,"Figure Technology Solutions, Inc.",2025-09-11,2025
+LBRX,LB Pharmaceuticals Inc,2025-09-11,2025
+KLAR,Klarna Group plc,2025-09-10,2025
+TLNC,Talon Capital Corp.,2025-09-09,2025
+ZGM,Zenta Group Company Limited,2025-09-09,2025
+FCHL,Fitness Champs Holdings Limited,2025-09-04,2025
+PMI,"Picard Medical, Inc.",2025-08-29,2025
+ELOG,Eastern International Ltd.,2025-08-28,2025
+TGHL,The Growhub Limited,2025-08-28,2025
+THH,TryHard Holdings Limited,2025-08-28,2025
+CURX,Curanex Pharmaceuticals Inc,2025-08-26,2025
+CEPF,"Cantor Equity Partners IV, Inc.",2025-08-21,2025
+ETS,Elite Express Holding Inc.,2025-08-21,2025
+YMT,Yimutian Inc.,2025-08-19,2025
+NUTR,NusaTrip Incorporated,2025-08-15,2025
+BUUU,BUUU Group Limited,2025-08-14,2025
+MIAX,"Miami International Holdings, Inc.",2025-08-14,2025
+NSRX,Nasus Pharma Ltd.,2025-08-14,2025
+RYOJ,"rYojbaba Co., Ltd.",2025-08-14,2025
+BLSH,Bullish,2025-08-13,2025
+HVMC,Highview Merger Corp.,2025-08-12,2025
+MAGH,Magnitude International Ltd,2025-08-12,2025
+DKI,Darkiris Inc.,2025-08-08,2025
+EFTY,"Etoiles Capital Group Co., Ltd",2025-08-08,2025
+HTFL,"HeartFlow, Inc.",2025-08-08,2025
+WYFI,"WhiteFiber, Inc.",2025-08-07,2025
+CTW,CTW Cayman,2025-08-06,2025
+FIG,"Figma, Inc.",2025-07-31,2025
+SI,"Shoulder Innovations, Inc.",2025-07-31,2025
+AMBQ,"Ambiq Micro, Inc.",2025-07-30,2025
+YMAT,"J-Star Holding Co., Ltd.",2025-07-30,2025
+ARX,Accelerant Holdings,2025-07-24,2025
+LHAI,Linkhome Holdings Inc.,2025-07-24,2025
+MH,"McGraw Hill, Inc.",2025-07-24,2025
+CARL,"Carlsmed, Inc.",2025-07-23,2025
+CRE,Cre8 Enterprise Limited,2025-07-23,2025
+NIQ,NIQ Global Intelligence plc,2025-07-23,2025
+TDIC,Dreamland Limited,2025-07-23,2025
+MJID,Majestic Ideal Holdings Ltd,2025-07-18,2025
+LAWR,"Robot Consulting Co., Ltd.",2025-07-17,2025
+KMRK,K-TECH Solutions Company Limited,2025-07-16,2025
+MGRT,Mega Fortune Company Limited,2025-07-16,2025
+BMHL,Bluemount Holdings Limited,2025-07-11,2025
+DLXY,Delixy Holdings Limited,2025-07-09,2025
+ANPA,Rich Sparkle Holdings Limited,2025-07-08,2025
+MSGY,Masonglory Limited,2025-07-08,2025
+TLIH,Ten-League International Holdings Limited,2025-07-08,2025
+MAMK,MaxsMaking Inc.,2025-07-07,2025
+CV,"CapsoVision, Inc.",2025-07-02,2025
+EMPG,Empro Group Inc.,2025-07-02,2025
+ORIQ,Origin Investment Corp I,2025-07-02,2025
+GRAN,Grande Group Limited,2025-07-01,2025
+CAEP,"Cantor Equity Partners III, Inc.",2025-06-26,2025
+JCAP,"Jefferson Capital, Inc.",2025-06-26,2025
+JLHL,Julong Holding Limited,2025-06-26,2025
+FMFC,Kandal M Venture Limited,2025-06-25,2025
+HCHL,Happy City Holdings Limited,2025-06-24,2025
+CAI,"Caris Life Sciences, Inc.",2025-06-18,2025
+EGG,Enigmatig Limited,2025-06-18,2025
+SLDE,"Slide Insurance Holdings, Inc.",2025-06-18,2025
+AIRO,"AIRO Group Holdings, Inc.",2025-06-13,2025
+CHYM,"Chime Financial, Inc.",2025-06-12,2025
+VNTG,Vantage Corp,2025-06-12,2025
+ASIC,Ategrity Specialty Insurance Company Holdings,2025-06-11,2025
+VOYG,"Voyager Technologies, Inc.",2025-06-11,2025
+JEM,707 Cayman Holdings Limited,2025-06-09,2025
+OMDA,"Omada Health, Inc.",2025-06-06,2025
+CRCL,"Circle Internet Group, Inc.",2025-06-05,2025
+PTNM,Pitanium Limited,2025-05-30,2025
+FTRK,Fast Track Group,2025-05-23,2025
+HNGE,"Hinge Health, Inc.",2025-05-22,2025
+MNTN,"MNTN, Inc.",2025-05-22,2025
+OFAL,OFA Group,2025-05-21,2025
+ANTA,Antalpha Platform Holding Company,2025-05-14,2025
+ETOR,eToro Group Ltd.,2025-05-14,2025
+OMSE,OMS Energy Technologies Inc.,2025-05-13,2025
+APUS,"Apimeds Pharmaceuticals US, Inc.",2025-05-09,2025
+AHL,Aspen Insurance Holdings Limited,2025-05-08,2025
+AII,"American Integrity Insurance Group, Inc.",2025-05-08,2025
+CEPT,"Cantor Equity Partners II, Inc.",2025-05-02,2025
+CGCT,Cartesian Growth Corporation III,2025-05-02,2025
+GTEN,"Gores Holdings X, Inc.",2025-05-02,2025
+SDM,Smart Digital Group Limited,2025-05-02,2025
+YB,Yuanbao Inc.,2025-04-30,2025
+PHOE,Phoenix Asia Holdings Limited,2025-04-25,2025
+CIGL,Concorde International Group Ltd.,2025-04-22,2025
+PFAI,Pinnacle Food Group Limited,2025-04-22,2025
+TMDE,TMD Energy Limited,2025-04-21,2025
+CHA,Chagee Holdings Limited,2025-04-17,2025
+EDHL,Everbright Digital Holding Limited,2025-04-17,2025
+HXHX,Haoxin Holdings Limited,2025-04-15,2025
+ATHR,"Aether Holdings, Inc.",2025-04-10,2025
+CUPR,Cuprina Holdings (Cayman) Limited,2025-04-10,2025
+IOTR,iOThree Limited,2025-04-10,2025
+MB,MasterBeef Group,2025-04-10,2025
+FATN,"FatPipe, Inc.",2025-04-08,2025
+RYET,Ruanyun Edai Technology Inc.,2025-04-08,2025
+BLIV,BeLive Holdings,2025-04-04,2025
+LHSW,Lianhe Sowell International Group Ltd,2025-04-03,2025
+SMA,"SmartStop Self Storage REIT, Inc.",2025-04-02,2025
+ENGS,Energys Group Limited,2025-04-01,2025
+WTF,Waton Financial Limited,2025-04-01,2025
+WXM,WF International Limited,2025-04-01,2025
+NMAX,Newsmax Inc.,2025-03-31,2025
+CRWV,"CoreWeave, Inc.",2025-03-28,2025
+NCT,Intercont (Cayman) Limited,2025-03-28,2025
+WFF,WF Holding Limited,2025-03-27,2025
+EPSM,Epsium Enterprise Limited,2025-03-26,2025
+LGPS,LogProstyle Inc.,2025-03-25,2025
+BIYA,Baiya International Group Inc.,2025-03-21,2025
+RCT,RedCloud Holdings plc,2025-03-21,2025
+MWYN,"Marwynn Holdings, Inc.",2025-03-13,2025
+MCRP,Micropolis AI Robotics,2025-03-07,2025
+SAGT,Sagtec Global Limited,2025-03-07,2025
+ADVB,Advanced Biomed Inc.,2025-03-06,2025
+JFB,JFB Construction Holdings,2025-03-06,2025
+KMTS,"Kestra Medical Technologies, Ltd.",2025-03-06,2025
+TBH,"Brag House Holdings, Inc.",2025-03-06,2025
+PN,Skycorp Solar Group Ltd,2025-03-04,2025
+NHIC,NewHold Investment Corp III,2025-02-28,2025
+LUD,Luda Technology Group Limited,2025-02-27,2025
+LZMH,LZ Technology Holdings Limited,2025-02-27,2025
+WETO,Webus International Limited,2025-02-27,2025
+STAK,STAK Inc.,2025-02-26,2025
+BMGL,Basel Medical Group Ltd,2025-02-25,2025
+WGRX,"Wellgistics Health, Inc.",2025-02-21,2025
+NNNN,Anbio Biotechnology,2025-02-19,2025
+NPB,"Northpointe Bancshares, Inc.",2025-02-14,2025
+AARD,"Aardvark Therapeutics, Inc.",2025-02-13,2025
+KRMN,Karman Holdings Inc.,2025-02-13,2025
+SAIL,"SailPoint, Inc.",2025-02-13,2025
+XHLD,"TEN Holdings, Inc.",2025-02-13,2025
+AGH,Aureus Greenway Holdings Inc.,2025-02-12,2025
+SION,"Sionna Therapeutics, Inc.",2025-02-07,2025
+TTAM,Titan America SA,2025-02-07,2025
+EPWK,EPWK Holdings Ltd.,2025-02-06,2025
+FBGL,FBS Global Limited,2025-02-06,2025
+CJMB,Callan JMB Inc.,2025-02-05,2025
+HCAI,"Huachen AI Parking Management Technology Holding Co., Ltd",2025-02-05,2025
+PLUT,Plutus Financial Group Limited,2025-02-05,2025
+INR,"Infinity Natural Resources, Inc.",2025-01-31,2025
+MAZE,"Maze Therapeutics, Inc.",2025-01-31,2025
+BBNX,"Beta Bionics, Inc.",2025-01-30,2025
+SVCC,Stellar V Capital Corp.,2025-01-30,2025
+FGMC,FG Merger II Corp.,2025-01-29,2025
+SFD,"Smithfield Foods, Inc.",2025-01-28,2025
+AAPG,Ascentage Pharma Group International,2025-01-24,2025
+VG,"Venture Global, Inc.",2025-01-24,2025
+SKBL,Skyline Builders Group Holding Limited,2025-01-23,2025
+DGNX,Diginex Limited,2025-01-22,2025
+DXST,Decent Holding Inc.,2025-01-22,2025
+TJGC,TJGC Group Limited,2025-01-22,2025
+TOPP,Toppoint Holdings Inc.,2025-01-22,2025
+HVII,Hennessy Capital Investment Corp. VII,2025-01-17,2025
+FLOC,Flowco Holdings Inc.,2025-01-16,2025
+PCLA,PicoCELA Inc.,2025-01-16,2025
+HKPD,"Cellyan Biotechnology Co., Ltd",2025-01-15,2025
+UFG,Uni-Fuels Holdings Limited,2025-01-14,2025
+MIMI,Mint Incorporation Limited,2025-01-10,2025
+MASK,3 E Network Technology Group Limited,2025-01-08,2025
+CEPO,"Cantor Equity Partners I, Inc.",2025-01-07,2025
+ZYBT,Zhengye Biotechnology Holding Limited,2025-01-07,2025
+INLF,INLIF Limited,2025-01-02,2025
