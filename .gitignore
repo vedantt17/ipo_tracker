@@ -1,7 +1,9 @@
-venv/
 .venv/
+venv/
 __pycache__/
 *.pyc
 .env
 *.db
-data/raw/
+data/raw/edgar/
+data/raw/crunchbase/
+data/raw/prices/
