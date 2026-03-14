@@ -6,6 +6,9 @@ import pandas as pd
 import os
 import time
 import logging
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+import warnings
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 logging.basicConfig(filename='logs/fetch_errors.log', level=logging.WARNING)
 
@@ -14,51 +17,45 @@ HEADERS = {
     'Accept-Encoding': 'gzip, deflate',
 }
 
+HEADERS_WWW = {**HEADERS, 'Host': 'www.sec.gov'}
+
 def fetch_s1_html(ticker, cik, accession):
     cache_path = f'data/raw/edgar/{ticker}.html'
-    
-    # skip if already cached
+
     if os.path.exists(cache_path):
         return True
 
     try:
         cik_int = int(float(cik))
         acc_nodash = accession.replace('-', '')
-        
-        # fetch the filing index page
+
         index_url = f'https://www.sec.gov/Archives/edgar/data/{cik_int}/{acc_nodash}/{accession}-index.htm'
-        headers_www = {**HEADERS, 'Host': 'www.sec.gov'}
-        
-        idx_r = requests.get(index_url, headers=headers_www)
+        idx_r = requests.get(index_url, headers=HEADERS_WWW)
+
         if idx_r.status_code != 200:
             logging.warning(f'{ticker}: index page {idx_r.status_code}')
             return False
 
-        # find the primary document link
-        from bs4 import BeautifulSoup
         soup = BeautifulSoup(idx_r.text, 'lxml')
         doc_url = None
-        
+
         for link in soup.find_all('a', href=True):
             href = link['href']
-            if href.endswith('.htm') and any(x in href.lower() for x in ['s-1', 'f-1', 'prospectus']):
+            # must be in Archives path
+            if not href.startswith('/Archives/'):
+                continue
+            # skip exhibits
+            if any(x in href.lower() for x in ['exhibit', 'ex-', 'ex1', 'ex2', 'ex3', 'ex4', 'ex9']):
+                continue
+            if href.endswith('.htm'):
                 doc_url = 'https://www.sec.gov' + href
                 break
-        
-        # fallback: take the largest htm file
-        if not doc_url:
-            for link in soup.find_all('a', href=True):
-                href = link['href']
-                if href.endswith('.htm'):
-                    doc_url = 'https://www.sec.gov' + href
-                    break
 
         if not doc_url:
-            logging.warning(f'{ticker}: no document URL found')
+            logging.warning(f'{ticker}: no document URL found in index')
             return False
 
-        # fetch and cache the document
-        doc_r = requests.get(doc_url, headers=headers_www)
+        doc_r = requests.get(doc_url, headers=HEADERS_WWW)
         if doc_r.status_code != 200:
             logging.warning(f'{ticker}: doc page {doc_r.status_code}')
             return False
@@ -76,7 +73,7 @@ def fetch_s1_html(ticker, cik, accession):
 df = pd.read_csv('data/cleaned/s1_accessions.csv')
 df = df[df['accession_number'].notna()]
 print(f'Fetching S-1 HTML for {len(df)} companies...')
-print('This will take 1-2 hours. Let it run.')
+print('This will take 1-2 hours. Let it run overnight.')
 
 success = 0
 failed = 0
