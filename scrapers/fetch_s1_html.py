@@ -1,0 +1,97 @@
+# scrapers/fetch_s1_html.py
+# Written by V
+
+import requests
+import pandas as pd
+import os
+import time
+import logging
+
+logging.basicConfig(filename='logs/fetch_errors.log', level=logging.WARNING)
+
+HEADERS = {
+    'User-Agent': 'UC Davis Research vedant17tiwari@gmail.com',
+    'Accept-Encoding': 'gzip, deflate',
+}
+
+def fetch_s1_html(ticker, cik, accession):
+    cache_path = f'data/raw/edgar/{ticker}.html'
+    
+    # skip if already cached
+    if os.path.exists(cache_path):
+        return True
+
+    try:
+        cik_int = int(float(cik))
+        acc_nodash = accession.replace('-', '')
+        
+        # fetch the filing index page
+        index_url = f'https://www.sec.gov/Archives/edgar/data/{cik_int}/{acc_nodash}/{accession}-index.htm'
+        headers_www = {**HEADERS, 'Host': 'www.sec.gov'}
+        
+        idx_r = requests.get(index_url, headers=headers_www)
+        if idx_r.status_code != 200:
+            logging.warning(f'{ticker}: index page {idx_r.status_code}')
+            return False
+
+        # find the primary document link
+        from bs4 import BeautifulSoup
+        soup = BeautifulSoup(idx_r.text, 'lxml')
+        doc_url = None
+        
+        for link in soup.find_all('a', href=True):
+            href = link['href']
+            if href.endswith('.htm') and any(x in href.lower() for x in ['s-1', 'f-1', 'prospectus']):
+                doc_url = 'https://www.sec.gov' + href
+                break
+        
+        # fallback: take the largest htm file
+        if not doc_url:
+            for link in soup.find_all('a', href=True):
+                href = link['href']
+                if href.endswith('.htm'):
+                    doc_url = 'https://www.sec.gov' + href
+                    break
+
+        if not doc_url:
+            logging.warning(f'{ticker}: no document URL found')
+            return False
+
+        # fetch and cache the document
+        doc_r = requests.get(doc_url, headers=headers_www)
+        if doc_r.status_code != 200:
+            logging.warning(f'{ticker}: doc page {doc_r.status_code}')
+            return False
+
+        with open(cache_path, 'w', encoding='utf-8', errors='ignore') as f:
+            f.write(doc_r.text)
+
+        return True
+
+    except Exception as e:
+        logging.warning(f'{ticker}: {e}')
+        return False
+
+# load accessions
+df = pd.read_csv('data/cleaned/s1_accessions.csv')
+df = df[df['accession_number'].notna()]
+print(f'Fetching S-1 HTML for {len(df)} companies...')
+print('This will take 1-2 hours. Let it run.')
+
+success = 0
+failed = 0
+
+for i, row in df.iterrows():
+    result = fetch_s1_html(row['ticker'], row['cik'], row['accession_number'])
+    if result:
+        success += 1
+    else:
+        failed += 1
+
+    if (success + failed) % 50 == 0:
+        print(f'Progress: {success + failed}/{len(df)} -- success: {success} failed: {failed}')
+
+    time.sleep(0.2)
+
+print(f'\nDone. Success: {success} Failed: {failed}')
+print(f'HTML files cached in data/raw/edgar/')
