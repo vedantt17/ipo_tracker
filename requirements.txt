@@ -1,0 +1,9 @@
+requests==2.31.0
+beautifulsoup4==4.12.3
+pandas==2.2.1
+lxml==5.1.0
+yfinance==0.2.37
+playwright==1.43.0
+exchange-calendars==4.5.4
+jupyter==1.0.0
+ipykernel==6.29.4
