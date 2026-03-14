@@ -87,6 +87,8 @@ ipos (main table)
 | 2025 | 228  | -4.9%  |
 
 **2020 was an extraordinary year** for IPOs due to pandemic-era stimulus and low interest rates. **2022 was the worst** as the Federal Reserve raised interest rates aggressively.
+
+
 **What's an Underwriter?** An underwriter is an investment bank that helps a company go public.
 
 ### 🏦 Top Underwriters by Deal Count
