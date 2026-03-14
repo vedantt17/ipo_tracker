@@ -197,15 +197,7 @@ This database feeds directly into a **Machine Learning project (BAX 452)** where
 - Compare logistic regression, random forests, gradient boosting, and neural networks
 - Cluster IPOs into risk profiles using k-means
 
----
-
-## Team
-
-**Group 9 | UC Davis MSBA | Spring 2026**
-- V
-- Jiayao Zhang
-- Ian Huang
-- Aditi Belur Akshara
+ Aditi Belur Akshara
 
 ---
 
