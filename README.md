@@ -1,38 +1,30 @@
 # 📈 IPO Performance Tracker
 
-
-
----
-
-## What is this project?
-
-When a company goes public on the stock market (called an **IPO** - Initial Public Offering), its stock price over the next few months tells the real story of whether investors thought it was a good deal or not.
-
-This project builds an **end-to-end data pipeline** that:
-1. Collects information about every major IPO from 2019 to 2025
-2. Downloads the official documents companies filed before going public
-3. Tracks what happened to their stock price after listing
-4. Stores everything in a clean database ready for analysis
-
-Think of it like building a **research database for a venture capital firm** that wants to understand what makes an IPO succeed or fail.
+An end-to-end data pipeline that collects, parses, and analyzes U.S. IPO performance from 2019–2025. 
 
 ---
 
-## What data did we collect?
+## What It Does
 
-We pulled data from **3 sources** and combined them into one database:
-
-| Source | What we got | How |
-|--------|-------------|-----|
-| **SEC EDGAR** | Company financials, underwriter names, risk factors text from official S-1 filings | Web scraping |
-| **stockanalysis.com** | List of all IPOs by year with offer price and ticker | Web scraping |
-| **yfinance** | Stock price performance at 30, 90, and 180 days after IPO | Python library |
+1. Scrapes IPO listings (offer price, ticker, date) from stockanalysis.com
+2. Finds and downloads official S-1 filings from SEC EDGAR
+3. Parses structured fields from S-1 text: financials, underwriters, VC history
+4. Fetches post-IPO stock price performance at 30, 90, and 180 days
+5. Loads everything into a normalized SQLite database for analysis
 
 ---
 
-## How big is the dataset?
+## Data Sources
 
-We started with **2,655 raw IPOs** and ended up with a clean, analysis-ready dataset:
+| Source | What We Collected | Method |
+|---|---|---|
+| [stockanalysis.com](https://stockanalysis.com/ipos/) | IPO list, offer price, ticker | Web scraping |
+| [SEC EDGAR](https://www.sec.gov/cgi-bin/browse-edgar) | S-1 filings: financials, underwriters, risk factors | Web scraping |
+| [yfinance](https://pypi.org/project/yfinance/) | Post-IPO stock returns at 30/90/180 days | Python library |
+
+---
+
+## Dataset Overview
 
 ```
 Raw scrape:              2,655 IPOs
@@ -42,65 +34,59 @@ After yfinance check:    1,198 IPOs   (477 delisted or unavailable removed)
 Final with full data:      702 IPOs   (have 90-day return data)
 ```
 
----
-
-## What is a SPAC?
-
-A **SPAC** (Special Purpose Acquisition Company) is basically a blank shell company with no real business. It raises money on the stock market first, then goes looking for a real company to buy. We removed these because they have no real financials to analyze.
-
-2020 and 2021 were peak SPAC years, which is why we removed 932 of them.
+SPACs (Special Purpose Acquisition Companies) were excluded because they are shell vehicles with no operating financials to analyze. 2020–2021 were peak SPAC years, accounting for most of the 932 removed.
 
 ---
 
-## Database Structure
+## Database Schema
 
-We store everything in a **SQLite database** with 5 tables that connect to each other:
+5-table SQLite schema:
 
 ```
 ipos (main table)
-  ├── financials      → revenue, net income, profitability
-  ├── vc_history      → founding year, funding rounds, total funding raised
-  ├── price_performance → 30d, 90d, 180d stock returns
-  └── underwriters    → which banks took the company public (many per IPO)
+  ├── financials         → revenue, net income, profitability
+  ├── vc_history         → founding year, funding rounds, total raised
+  ├── price_performance  → 30d, 90d, 180d stock returns
+  └── underwriters       → banks that underwrote the IPO (many-to-one)
 ```
 
-### Key numbers after all 5 phases:
-- **ipos**: 1,191 companies
-- **financials**: 866 companies with revenue data
-- **underwriters**: 2,648 records (Goldman Sachs leads with 283 deals)
-- **vc_history**: 1,036 companies with founding year and funding data
-- **price_performance**: 702 companies with full return data
+**Row counts after full pipeline:**
+
+| Table | Rows |
+|---|---|
+| ipos | 1,191 |
+| financials | 866 |
+| underwriters | 2,648 |
+| vc_history | 1,036 |
+| price_performance | 702 |
 
 ---
 
-## What did we find? (Quick Insights)
+## Key Findings
 
-### 📅 IPO Performance by Year
-| Year | IPOs | Avg 90-Day Return |
-|------|------|-------------------|
-| 2019 | 124  | -0.3%  |
-| 2020 | 159  | +45.8% 🚀 |
-| 2021 | 319  | -23.2% |
-| 2022 | 88   | -39.0% 📉 |
-| 2023 | 106  | -28.3% |
-| 2024 | 167  | -22.5% |
-| 2025 | 228  | -4.9%  |
+### IPO Performance by Year
 
-**2020 was an extraordinary year** for IPOs due to pandemic-era stimulus and low interest rates. **2022 was the worst** as the Federal Reserve raised interest rates aggressively.
+| Year | IPOs | Avg 90-Day Return | Notes |
+|---|---|---|---|
+| 2019 | 124 | -0.3% | |
+| 2020 | 159 | +45.8% 🚀 | Pandemic stimulus + low rates |
+| 2021 | 319 | -23.2% | Peak SPAC era, rate hike fears begin |
+| 2022 | 88 | -39.0% 📉 | Aggressive Fed rate hikes |
+| 2023 | 106 | -28.3% | |
+| 2024 | 167 | -22.5% | |
+| 2025 | 228 | -4.9% | *Partial year* |
 
+### Top Underwriters by Deal Count
 
-**What's an Underwriter?** An underwriter is an investment bank that helps a company go public.
-
-### 🏦 Top Underwriters by Deal Count
 | Bank | Deals | Avg 90-Day Return |
-|------|-------|-------------------|
+|---|---|---|
 | Goldman Sachs | 283 | +1.2% |
 | Morgan Stanley | 280 | -1.4% |
 | J.P. Morgan | 239 | +1.8% |
 | Jefferies | 143 | +12.0% |
 | Barclays | 131 | +7.1% |
 
-Interestingly, **Jefferies and Barclays** outperformed the larger banks on 90-day returns, suggesting mid-tier banks may be more selective in the deals they choose.
+Jefferies and Barclays outperformed the bulge-bracket banks on 90-day returns, which may reflect more selective deal sourcing at the mid-tier level.
 
 ---
 
@@ -110,94 +96,98 @@ Interestingly, **Jefferies and Barclays** outperformed the larger banks on 90-da
 ipo_tracker/
 │
 ├── scrapers/
-│   ├── master_list.py          # scrapes IPO list from stockanalysis.com
-│   ├── edgar_scraper.py        # finds S-1 filing accession numbers on EDGAR
-│   ├── fetch_s1_html.py        # downloads and caches S-1 HTML files
-│   ├── parse_s1.py             # extracts structured fields from S-1 text
-│   ├── vc_history_from_s1.py   # extracts VC history from S-1 text
-│   └── fetch_prices.py         # pulls stock price data via yfinance
+│   ├── master_list.py          # Phase 1: scrape IPO list from stockanalysis.com
+│   ├── edgar_scraper.py        # Phase 2: find S-1 accession numbers on EDGAR
+│   ├── fetch_s1_html.py        # Phase 2: download and cache S-1 HTML files
+│   ├── parse_s1.py             # Phase 2: extract structured fields from S-1 text
+│   ├── vc_history_from_s1.py   # Phase 3: extract VC/funding history from S-1 text
+│   └── fetch_prices.py         # Phase 4: pull post-IPO stock price data
 │
 ├── database/
-│   ├── schema.sql              # defines all 5 tables
-│   ├── db.py                   # database connection helper
-│   └── load_data.py            # loads CSVs into SQLite
+│   ├── schema.sql              # table definitions
+│   ├── db.py                   # connection helper
+│   └── load_data.py            # loads cleaned CSVs into SQLite
 │
 ├── notebooks/
-│   ├── clean_master_list.ipynb # Phase 1 cleaning and validation
-│   ├── data_quality.ipynb      # Phase 5 QA and cross-table checks
+│   ├── clean_master_list.ipynb # Phase 1: cleaning and validation
+│   ├── data_quality.ipynb      # Phase 5: QA and cross-table checks
 │   └── ipo_analytics.ipynb     # exploratory analysis and visualizations
 │
 ├── data/
-│   ├── raw/
-│   │   └── edgar/              # 1,041 cached S-1 HTML files
-│   └── cleaned/
+│   └── cleaned/                # cleaned CSVs (raw/ is gitignored due to size)
 │       ├── ipo_master.csv
 │       ├── ipo_master_validated.csv
 │       ├── s1_accessions.csv
 │       ├── s1_parsed.csv
 │       ├── vc_history.csv
 │       ├── price_performance_clean.csv
-│       └── ipo_analysis_ready.csv  ← final dataset
+│       └── ipo_analysis_ready.csv   ← final dataset
 │
-└── logs/                       # error logs from all scrapers
+├── .env.example                # template for API keys and config
+├── requirements.txt
+└── logs/                       # runtime logs (gitignored)
 ```
 
 ---
 
-## How to Run This Project
+## Setup
 
 ### 1. Clone the repo
+
 ```bash
 git clone https://github.com/vedantt17/ipo_tracker.git
 cd ipo_tracker
 ```
 
-### 2. Set up the environment
+### 2. Create environment and install dependencies
+
 ```bash
 python -m venv .venv
-.venv\Scripts\activate        # Windows
-source .venv/bin/activate     # Mac/Linux
-pip install requests beautifulsoup4 pandas lxml yfinance playwright exchange-calendars
+source .venv/bin/activate        # Mac/Linux
+.venv\Scripts\activate           # Windows
+
+pip install -r requirements.txt
 playwright install chromium
 ```
 
-### 3. Run the pipeline in order
+### 3. Configure API keys
+
+```bash
+cp .env.example .env
+# edit .env and add your Alpha Vantage key
+```
+
+### 4. Run the pipeline in order
+
 ```bash
 python scrapers/master_list.py        # Phase 1: build IPO universe
 python scrapers/edgar_scraper.py      # Phase 2: find S-1 accessions
 python scrapers/fetch_s1_html.py      # Phase 2: download S-1 files
 python scrapers/parse_s1.py           # Phase 2: parse structured fields
-python database/db.py                 # Phase 2: initialize database
-python database/load_data.py          # Phase 2: load data into SQLite
+sqlite3 database/ipo_tracker.db < database/schema.sql   # initialize DB
+python database/load_data.py          # Phase 2: load CSVs into SQLite
 python scrapers/vc_history_from_s1.py # Phase 3: extract VC history
 python scrapers/fetch_prices.py       # Phase 4: pull price data
 ```
 
-### 4. Open the notebooks for QA and analysis
+### 5. Open the notebooks
+
 ```bash
 jupyter notebook
 ```
 
 ---
 
-## Challenges We Faced
+## Challenges
 
-| Challenge | What Happened | How We Fixed It |
-|-----------|---------------|-----------------|
-| Crunchbase blocked | Bot detection blocked all scraping attempts | Switched to extracting VC data directly from S-1 text |
-| SEC homepage cached | Fetcher grabbed wrong URL, saved SEC homepage instead of S-1 | Fixed link finder to only accept /Archives/ paths |
-| CIK formatting bug | CIK numbers stored as floats (1757840.0) broke EDGAR lookups | Converted with str(int(float(cik))).zfill(10) |
+| Challenge | What Happened | Fix |
+|---|---|---|
+| Crunchbase blocked | Bot detection blocked all scraping attempts | Extracted VC data from S-1 text instead |
+| SEC homepage cached | Fetcher saved SEC homepage instead of actual S-1 | Fixed link finder to only accept `/Archives/` paths |
+| CIK formatting bug | CIK numbers stored as floats broke EDGAR lookups | Converted with `str(int(float(cik))).zfill(10)` |
 | UBS false positives | 3-letter string matched in 983 wrong filings | Removed UBS from underwriter parser, deleted bad rows |
-| stockanalysis.com only goes back to 2019 | 404 errors for 2012-2018 | Extended forward to 2025 instead, got 2,655 rows |
+| stockanalysis.com range | 404 errors for years before 2019 | Extended scrape forward to 2025 instead |
 
 ---
 
-
-
-## Data Sources
-
-- [SEC EDGAR](https://www.sec.gov/cgi-bin/browse-edgar) - U.S. Securities and Exchange Commission public filings
-- [stockanalysis.com](https://stockanalysis.com/ipos/) - Historical IPO data
-- [yfinance](https://pypi.org/project/yfinance/) - Yahoo Finance price data via Python
-
-*This project is for academic research purposes only.*
+*For academic research purposes only.*
