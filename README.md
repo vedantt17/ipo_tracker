@@ -189,17 +189,7 @@ jupyter notebook
 
 ---
 
-## What's Next?
 
-This database feeds directly into a **Machine Learning project (BAX 452)** where we will:
-- Predict whether an IPO will outperform the S&P 500 over 90 days
-- Use NLP on the Risk Factors text from S-1 filings as a feature
-- Compare logistic regression, random forests, gradient boosting, and neural networks
-- Cluster IPOs into risk profiles using k-means
-
- Aditi Belur Akshara
-
----
 
 ## Data Sources
 
