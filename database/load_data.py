@@ -1,23 +1,23 @@
 # database/load_data.py
-# Written by V
-
 import pandas as pd
 import sqlite3
+
 import sys
+
 sys.path.append('.')
 from database.db import get_conn
 
-conn = get_conn()
+conn    = get_conn()
 
 # load master list and parsed S1 data
 master = pd.read_csv('data/cleaned/ipo_master_validated.csv')
-parsed = pd.read_csv('data/cleaned/s1_parsed.csv')
+parsed   = pd.read_csv('data/cleaned/s1_parsed.csv')
 
-# merge them
+# merging 
 df = master.merge(parsed, on='ticker', how='left')
 print(f'Merged dataset: {len(df)} rows')
 
-# load ipos table
+#loading the ipos table 
 print('Loading ipos table...')
 ipos_loaded = 0
 for _, row in df.iterrows():
@@ -36,9 +36,9 @@ for _, row in df.iterrows():
 conn.commit()
 print(f'ipos table: {ipos_loaded} rows loaded')
 
-# load financials table
+#loading financials table
 print('Loading financials table...')
-fin_loaded = 0
+fin_loaded   = 0
 for _, row in df.iterrows():
     try:
         if pd.notna(row.get('revenue_ttm')) or pd.notna(row.get('net_income_ttm')):
@@ -54,7 +54,7 @@ for _, row in df.iterrows():
 conn.commit()
 print(f'financials table: {fin_loaded} rows loaded')
 
-# load underwriters table
+#loading underwriters tables
 print('Loading underwriters table...')
 uw_loaded = 0
 for _, row in df.iterrows():
