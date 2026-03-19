@@ -1,11 +1,13 @@
 # scrapers/fetch_prices.py
-# Written by V
 
 import yfinance as yf
 import pandas as pd
 import sqlite3
+
 import time
 import logging
+
+
 import exchange_calendars as xcals
 
 logging.basicConfig(filename='logs/price_errors.log', level=logging.WARNING)
@@ -19,9 +21,9 @@ def compute_returns(ticker, ipo_date, offer_price):
         data.index = pd.to_datetime(data.index)
         data = data.sort_index()
 
-        # get trading calendar
-        cal = xcals.get_calendar('XNYS')
-        sessions = cal.sessions_in_range(ipo_date, data.index[-1].strftime('%Y-%m-%d'))
+        #getting thr trading calendar
+        cal =   xcals.get_calendar('XNYS')
+        sessions =  cal.sessions_in_range(ipo_date, data.index[-1].strftime('%Y-%m-%d'))
         trade_days = [s for s in sessions if pd.Timestamp(s) >= pd.Timestamp(ipo_date)]
 
         if not trade_days:
@@ -30,16 +32,16 @@ def compute_returns(ticker, ipo_date, offer_price):
         def get_price(n):
             if len(trade_days) <= n:
                 return None
-            target = pd.Timestamp(trade_days[n])
+            target  = pd.Timestamp(trade_days[n])
             if target in data.index:
                 return float(data.loc[target, 'Close'].iloc[0] if hasattr(data.loc[target, 'Close'], 'iloc') else data.loc[target, 'Close'])
             return None
 
-        p0 = get_price(0)
-        p1 = get_price(1)
-        p30 = get_price(30)
-        p90 = get_price(90)
-        p180 = get_price(180)
+        p0 =  get_price(0)
+        p1 =  get_price(1)
+        p30 =   get_price(30)
+        p90 =  get_price(90)
+        p180  = get_price(180)
 
         def ret(p):
             return round((p - p0) / p0, 4) if p and p0 else None
@@ -59,10 +61,10 @@ def compute_returns(ticker, ipo_date, offer_price):
         logging.warning(f'{ticker}: {e}')
         return None
 
-# load data
+#loading data
 conn = sqlite3.connect('database/ipo_tracker.db')
-df = pd.read_sql('SELECT ticker, ipo_date, offer_price FROM ipos', conn)
-df = df[df['offer_price'].notna()]
+df =  pd.read_sql('SELECT ticker, ipo_date, offer_price FROM ipos', conn)
+df =  df[df['offer_price'].notna()]
 print(f'Fetching prices for {len(df)} tickers...')
 
 results = []
@@ -82,8 +84,8 @@ for i, row in df.iterrows():
 
 print(f'\nDone. Success: {len(results)} Failed: {failed}')
 
-# load into database
-loaded = 0
+#loading into the database
+loaded =  0
 for r in results:
     try:
         conn.execute('''INSERT OR REPLACE INTO price_performance
@@ -101,6 +103,6 @@ count = conn.execute('SELECT COUNT(*) FROM price_performance').fetchone()[0]
 print(f'price_performance table: {count} rows')
 conn.close()
 
-# save CSV backup
+#also save csv backup
 pd.DataFrame(results).to_csv('data/cleaned/price_performance.csv', index=False)
 print('Saved to data/cleaned/price_performance.csv')
