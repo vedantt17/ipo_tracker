@@ -1,9 +1,10 @@
 # scrapers/edgar_scraper.py
-# Written by V
 
 import requests
 import pandas as pd
 import time
+
+
 import logging
 
 logging.basicConfig(filename='logs/edgar_errors.log', level=logging.WARNING)
@@ -30,12 +31,12 @@ def get_s1_accession(cik):
             return None, None
         data = r.json()
 
-        # check recent filings first
+       
         acc, date = find_s1_in_filings(data['filings']['recent'])
         if acc:
             return acc, date
 
-        # check older filing files if not found in recent
+        
         for f in data['filings'].get('files', []):
             file_url = f'https://data.sec.gov/submissions/{f["name"]}'
             r2 = requests.get(file_url, headers=HEADERS_DATA)
@@ -51,7 +52,7 @@ def get_s1_accession(cik):
         logging.warning(f'CIK {cik}: {e}')
         return None, None
 
-# load CIK map
+#loading the CIK map
 df = pd.read_csv('data/cleaned/ticker_cik_map.csv')
 df = df[df['cik'].notna()]
 print(f'Finding S-1 accessions for {len(df)} tickers...')
