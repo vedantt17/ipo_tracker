@@ -1,5 +1,4 @@
 # scrapers/fetch_s1_html.py
-# Written by V
 
 import requests
 import pandas as pd
@@ -20,7 +19,7 @@ HEADERS = {
 HEADERS_WWW = {**HEADERS, 'Host': 'www.sec.gov'}
 
 def fetch_s1_html(ticker, cik, accession):
-    cache_path = f'data/raw/edgar/{ticker}.html'
+    cache_path  = f'data/raw/edgar/{ticker}.html'
 
     if os.path.exists(cache_path):
         return True
@@ -29,8 +28,8 @@ def fetch_s1_html(ticker, cik, accession):
         cik_int = int(float(cik))
         acc_nodash = accession.replace('-', '')
 
-        index_url = f'https://www.sec.gov/Archives/edgar/data/{cik_int}/{acc_nodash}/{accession}-index.htm'
-        idx_r = requests.get(index_url, headers=HEADERS_WWW)
+        index_url  = f'https://www.sec.gov/Archives/edgar/data/{cik_int}/{acc_nodash}/{accession}-index.htm'
+        idx_r  = requests.get(index_url, headers=HEADERS_WWW)
 
         if idx_r.status_code != 200:
             logging.warning(f'{ticker}: index page {idx_r.status_code}')
@@ -41,10 +40,10 @@ def fetch_s1_html(ticker, cik, accession):
 
         for link in soup.find_all('a', href=True):
             href = link['href']
-            # must be in Archives path
+            
             if not href.startswith('/Archives/'):
                 continue
-            # skip exhibits
+            #skipoing exhibits
             if any(x in href.lower() for x in ['exhibit', 'ex-', 'ex1', 'ex2', 'ex3', 'ex4', 'ex9']):
                 continue
             if href.endswith('.htm'):
@@ -69,13 +68,13 @@ def fetch_s1_html(ticker, cik, accession):
         logging.warning(f'{ticker}: {e}')
         return False
 
-# load accessions
-df = pd.read_csv('data/cleaned/s1_accessions.csv')
-df = df[df['accession_number'].notna()]
+#load the accessions
+df =  pd.read_csv('data/cleaned/s1_accessions.csv')
+df= df[df['accession_number'].notna()]
 print(f'Fetching S-1 HTML for {len(df)} companies...')
 print('This will take 1-2 hours. Let it run overnight.')
 
-success = 0
+success  = 0
 failed = 0
 
 for i, row in df.iterrows():
