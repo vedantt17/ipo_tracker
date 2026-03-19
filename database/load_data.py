@@ -9,11 +9,11 @@ from database.db import get_conn
 
 conn    = get_conn()
 
-# load master list and parsed S1 data
+#load the master list and parsed S1 data
 master = pd.read_csv('data/cleaned/ipo_master_validated.csv')
-parsed   = pd.read_csv('data/cleaned/s1_parsed.csv')
+parsed = pd.read_csv('data/cleaned/s1_parsed.csv')
 
-# merging 
+#merging 
 df = master.merge(parsed, on='ticker', how='left')
 print(f'Merged dataset: {len(df)} rows')
 
@@ -73,7 +73,7 @@ for _, row in df.iterrows():
 conn.commit()
 print(f'underwriters table: {uw_loaded} rows loaded')
 
-# verify
+#verifification
 print('\nVerification:')
 for table in ['ipos', 'financials', 'underwriters']:
     count = conn.execute(f'SELECT COUNT(*) FROM {table}').fetchone()[0]
