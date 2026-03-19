@@ -1,18 +1,11 @@
 import requests
 import pandas as pd
-import time
-from io import StringIO
 
-# scrapers/master_list.py
-# Written by V
-
-import requests
-import pandas as pd
 import time
 from io import StringIO
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (academic research project, UC Davis MSBA)'
+    'User-Agent': 'Mozilla/5.0 (academic  project)'
 }
 
 all_ipos = []
@@ -33,7 +26,7 @@ for year in range(2019, 2026):
 
     df = tables[0]
     
-    # filter to only rows actually from this year
+    #filtering to only rows that are actually from this year
     df['IPO Date'] = pd.to_datetime(df['IPO Date'], errors='coerce')
     df = df[df['IPO Date'].dt.year == year]
     
