@@ -1,10 +1,11 @@
 # scrapers/parse_s1.py
-# Written by V
 
 import pandas as pd
 import re
+
 import os
 import logging
+
 from bs4 import BeautifulSoup
 
 logging.basicConfig(filename='logs/parse_errors.log', level=logging.WARNING)
@@ -80,7 +81,7 @@ def parse_net_income(text):
             return -val * multiplier if is_loss else val * multiplier
     return None
 
-# load accessions
+#loading  accessions
 df = pd.read_csv('data/cleaned/s1_accessions.csv')
 df = df[df['accession_number'].notna()]
 print(f'Parsing {len(df)} S-1 filings...')
